@@ -4,7 +4,7 @@ description: Screens AI image and audio generation requests against cited Islami
 license: MIT
 metadata:
   author: Ahmad Hatem (ebn Hatem)
-  version: "0.1.10230207"
+  version: "0.1.0"
   arabic_name: عدسة الطيب
   knowledge_files_license: CC-BY-4.0 (see LICENSE-CONTENT.md)
 ---
