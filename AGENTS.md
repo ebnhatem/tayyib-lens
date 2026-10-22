@@ -26,6 +26,9 @@ the cited source, never this project.
 - Never use governor/judge/creator/criterion role words for this project
   (rejected-words taxonomy in references/glossary.md).
 - Never commit with `--no-verify`; never force-push `main`.
+- Never create tags, releases, or version bumps unless the task explicitly asks for one.
+  Versioning follows GOVERNANCE.md: MAJOR = verdict changes, MINOR = new rules/sources,
+  PATCH = corrections. Versions never encode dates.
 
 ## Commit convention (Conventional Commits)
 
