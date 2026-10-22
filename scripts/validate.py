@@ -53,12 +53,18 @@ for p in sorted((ROOT / "policies").glob("*.yaml")):
             errors.append(f"{p.name}[{i}]: invalid verdict '{v}'")
 
 # 3. voice discipline scan: unsourced ruling claims
+# Disallow positive/active claims ("TayyibLens allows...", "This skill forbids...")
+# while avoiding false positives on prohibitions/guidelines ("Never write 'TayyibLens allows...'")
 banned = re.compile(r"(tayyiblens|this skill)\s+(allows|forbids|permits|rules|judges)", re.I)
 for p in ROOT.rglob("*.md"):
     if ".git" in p.parts: continue
-    m = banned.search(p.read_text(encoding="utf-8", errors="ignore"))
-    if m:
-        errors.append(f"{p.relative_to(ROOT)}: voice discipline violation: '{m.group(0)}'")
+    for line_num, line in enumerate(p.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
+        # Ignore lines explicitly instructing what NOT to write or quoting in negative context
+        if re.search(r"(never|do not|don't|no\s+[\"'\(\[]*)\s*(write|state|say)?[:\s\(\"']*tayyiblens\s+(allows|forbids|permits|rules|judges)", line, re.I):
+            continue
+        m = banned.search(line)
+        if m:
+            errors.append(f"{p.relative_to(ROOT)}:{line_num}: voice discipline violation: '{m.group(0)}'")
 
 if errors:
     print("VALIDATION FAILED:")

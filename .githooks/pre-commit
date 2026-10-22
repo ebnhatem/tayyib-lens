@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+echo "[tayyib-lens] running validation before commit..."
+if command -v python3 >/dev/null 2>&1; then
+  python3 scripts/validate.py
+else
+  python scripts/validate.py
+fi
