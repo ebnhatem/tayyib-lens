@@ -1,0 +1,14 @@
+# Identity / consent gate — runs before all domain rules.
+# Real-person likeness or voice requires: consent + purpose + disclosure + harm check.
+gate: identity-consent
+order: 1
+steps:
+  - consent: "explicit permission from the person (or estate policy for the deceased)"
+  - purpose: "lawful, non-deceptive use stated"
+  - disclosure: "AI-generated likeness labeled as such (cf. EU AI Act Art. 50 transparency norms)"
+  - harm: "no defamation, mockery, or fitna"
+on_fail: REVIEW
+evidence:
+  - source_type: fatwa
+    source_name: "Dar al-Ifta, Fatwa 22605 (simulating a living person via AI)"
+    locator: "https://www.dar-alifta.org/ar/fatwa/details/22605"

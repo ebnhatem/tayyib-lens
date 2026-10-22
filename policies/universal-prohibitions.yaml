@@ -1,0 +1,28 @@
+# Universal prohibitions — agreed across surveyed sources; non-negotiable REJECT.
+# schema: references/evidence-schema.md
+- rule_id: visual.divine_depiction
+  category: visual
+  trigger: "any attempt to depict the Divine Self or Attributes"
+  verdict: REJECT
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REJECT, institutional-ai-safety: REJECT}
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 22369 (AI depiction of the Divine Self)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/22369"
+      note: "institutionally rejected"
+  illah: "tashbih / dishonoring the transcendent"
+  disagreement: "none surveyed"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.prophet_depiction
+  category: visual
+  trigger: "any depiction of prophets or messengers"
+  verdict: REJECT
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REJECT, institutional-ai-safety: REJECT}
+  evidence:
+    - source_type: fatwa
+      source_name: "Al-Azhar / Majma' al-Buhuth line on dramatizing prophets"
+      locator: "TODO: pin azhar.eg locator"
+  illah: "diminishing prophetic rank; fitna"
+  disagreement: "none surveyed in the Egyptian institutional line"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+# TODO: nudity/pornography, deepfake deception, false attribution of speech

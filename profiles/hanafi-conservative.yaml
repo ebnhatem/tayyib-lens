@@ -1,0 +1,8 @@
+line: hanafi
+description: |
+  Cautious Hanafi defaults. Where the madhhab or its commentators differ, prefer
+  leaving the contested matter (wara') over extending permission.
+mode: conservative
+inherits: universal-prohibitions
+
+# rules: []  # TODO: extracted rules land here incrementally

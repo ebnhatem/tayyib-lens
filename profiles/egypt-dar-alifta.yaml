@@ -1,0 +1,9 @@
+line: egypt-dar-alifta
+description: |
+  Positions published by Egypt's Dar al-Ifta, Dar al-Ifta's AI-era fatwas, and
+  Al-Azhar institutional lines. Wider on photography and controlled music;
+  strict on deepfakes, deception, and simulating living/deceased persons.
+mode: institutional
+inherits: universal-prohibitions
+
+# rules: []  # TODO: extracted rules land here incrementally

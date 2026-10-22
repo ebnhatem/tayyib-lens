@@ -1,0 +1,17 @@
+# Audio-domain rules. schema: references/evidence-schema.md
+- rule_id: audio.instrumental_music
+  category: audio
+  trigger: "request for melodic instrumental accompaniment"
+  verdict: MODIFY
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5590 (ma'azif)"
+      locator: "https://sunnah.com/bukhari:5590"
+      note: "mu'allaq form; connected chains at other collections"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 16964 (music)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/16964"
+  illah: "lahwa distracting from dhikr; mimicking ma'azif"
+  disagreement: "Ibn Hazm and others dissented; see knowledge/hadith-evidence.md"
+  safe_alternative: "prompts/audio-safe-rewrite.md#ambience"

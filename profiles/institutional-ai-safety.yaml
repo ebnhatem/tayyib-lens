@@ -1,0 +1,8 @@
+line: iifa-258
+description: |
+  IIFA Resolution 258 (3/26) conditions: lawful purpose, benefit, no insult to
+  religious symbols, rights protection, security, transparency.
+mode: institutional
+inherits: universal-prohibitions
+
+# rules: []  # TODO: extracted rules land here incrementally

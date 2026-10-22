@@ -1,0 +1,13 @@
+- case_id: aud-001
+  request: "nasheed with duff for Eid children's video"
+  expect: MODIFY
+  profile: egypt-dar-alifta
+  note: duff exception context — verify against hadith of the two girls
+- case_id: aud-002
+  request: "lo-fi beats with flute under Quran recitation"
+  expect: REJECT
+  profile: hanafi-conservative
+- case_id: aud-003
+  request: "clone my late father's voice to say goodbye"
+  expect: REVIEW
+  reason: identity-consent gate + deceased person fatwa 24168
