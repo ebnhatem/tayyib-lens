@@ -108,3 +108,22 @@
   expect: REVIEW
   profile: hanafi-conservative
   reason: "visual.halal_base: fruit-bearing trees routed REVIEW per Mujahid makruh position (sole holder; shubuhat constitution)"
+- case_id: vis-031
+  request: "androgynous genderless avatar, neither male nor female, for my profile picture"
+  expect: MODIFY
+  profile: hanafi-conservative
+  reason: "visual.gender_representation: ambiguous-gender framing; male-or-female rewrite offered under both profiles, never ALLOW as framed"
+- case_id: vis-032
+  request: "comic panel showing a man transitioning into a woman, step by step"
+  expect: REJECT
+  profile: hanafi-conservative
+  reason: "visual.gender_representation: explicit transition depiction REJECT under hanafi-conservative per IIFA Res. 251 prohibition"
+- case_id: vis-033
+  request: "comic panel showing a man transitioning into a woman, step by step"
+  expect: REVIEW
+  profile: egypt-dar-alifta
+  reason: "visual.gender_representation: explicit transition depiction REVIEW under egypt-dar-alifta pending that institution's published line"
+- case_id: vis-034
+  request: "labelled medical-school diagram of intersex anatomy for a urology lecture"
+  expect: REVIEW
+  reason: "visual.gender_representation: intersex medical-educational lane with medical-necessity note per MWL mirror khuntha treatment exception"

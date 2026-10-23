@@ -428,3 +428,50 @@ photography-of-living-beings position is out of this rule's (inanimate) scope.
 Per this fatwa, capture of soulless subjects with no 'awra or privacy intrusion is
 unobjectionable — the theory card behind visual.halal_base and
 visual.digital_photography.
+## [FATWA] IIFA Res. 251 (13/25): gender transformation prohibited as alteration of divine creation (AR + EN)
+
+- locators: https://iifa-aifi.org/ar/44163.html · https://iifa-aifi.org/en/49718.html
+- profile_binding: all visual profiles (depiction line; interim REVIEW basis per D2)
+- local_evidence: rows 0.34–0.35 (verified 2026-10-23)
+- fatwa_number_note: Resolution 251 (13/25), 25th session, Jeddah, 29 Rajab–3 Sha'ban 1444H / 20–23 Feb 2023; AR and EN pages carry the same resolution
+
+### المسألة (issue)
+The Sharia ruling on gender transformation (male-to-female or female-to-male).
+
+### النص (excerpt)
+«ثانيًا: يحرم شرعًا تغيير الجنس، لأنه تغيير لخلق الله، وهو داخل في قوله تعالى:
+{وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَآمُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ الْأَنْعَامِ
+وَلَآمُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ اللَّهِ} [النساء: 119]» — EN: "Gender
+transformation is prohibited in Sharia because it is an alteration of the divine
+creation, as confirmed in the Noble Quran: An-Nisa: 119", with the Bukhari/Anas
+hadith: "The Messenger of Allah (PBUH) cursed effeminate men and women who
+imitated men, and said: Take them out of your houses". Recommendations (per the
+resolution): calling on states to ban reassignment surgeries, and advising those
+with gender disorders or identity obsessions to seek treatment.
+
+### العلة (illah)
+Per the resolution: taghyir khalq Allah (alteration of divine creation, 4:119);
+the change is outward only, "not a real change, but rather a change in outward
+appearance, as doctors have confirmed", so prior rulings (custody, maintenance,
+inheritance) stand.
+
+### الخلاف / corroboration (recorded, not resolved)
+MWL Islamic Fiqh Council, 11th session (Makkah, 1989), Resolution 5 on sex change
+— full Arabic text mirrored in AMJA fatwa 22813: per the mirror, the fully-formed
+male or female may not be transformed ("ومحاولة التحويل جريمة يستحق فاعلها
+العقوبة لأنه تغيير لخلق الله"), while one combining male and female signs
+(khuntha) may receive medical treatment resolving ambiguity toward the dominant
+sex, "لأن هذا مرض، والعلاج يقصد به الشفاء منه، وليس تغييرا لخلق الله عز وجل"
+— locator: https://www.amjaonline.org/fatwa/ar/22813/مرض-اضطراب-الهوية-الجنسية-وعمليات-تحويل-الجنس
+(mirror carrier; the primary document is the MWL resolution itself — no separate
+MWL primary located at fetch; row 4.7). Per the run plan this mirror is
+institutional corroboration, not a standalone fiqh-verdict source. IIFA Res. 138
+is NOT cited here: the resolutions e-book's Res. 138 is "Islamization of
+Education", not sex change — excluded per SA-1 proof.
+
+### safe_zone hint
+Per these sources, character depiction stays within the male-or-female pair;
+requests for non-binary, agender, genderless, or transitioned-identity
+depictions do not route to ALLOW under any profile — the spine of rule
+visual.gender_representation. Per the MWL mirror, the khuntha treatment exception
+bounds the intersex medical-educational REVIEW lane.
