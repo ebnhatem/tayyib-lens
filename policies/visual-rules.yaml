@@ -14,7 +14,7 @@
       note: "Sahih (Darussalam); the two remediation exits"
     - source_type: fiqh
       source_name: "Bada'i al-Sana'i, juz 1 (cut-head exits tamathil status)"
-      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
       note: "category exit into naqsh; same edition precedent as PR #2/#4"
     - source_type: fatwa
       source_name: "Islamweb 372403 (incomplete image: headless body permitted)"
@@ -25,5 +25,5 @@
       locator: "https://www.islamweb.net/ar/fatwa/173023"
       note: "precaution: break the head until its form is gone"
   illah: "the image is no longer complete in creation once a part without which life cannot remain is removed (per fatwa wording); by cutting it exits timthal status (per Bada'i wording)"
-  disagreement: "severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW"
+  disagreement: "severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW; 372403 thread-cut nuance: severing the head by thread with the head left intact does NOT remove karaha (bird-collar reason) — bounds the safe alternative; [EXTRAPOLATION] all cited sources address possession/remediation of existing images, not generation of new headless figures — applying naqisa to generation is labeled extrapolation here"
   safe_alternative: "prompts/visual-safe-rewrite.md#faceless-silhouette"

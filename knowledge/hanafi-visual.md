@@ -3,7 +3,8 @@
 ## [MADHHAB] Bada'i: cut-head images exit the tamathil category (naqisa)
 
 - locator: Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1,
-  p. 541 (Kitab al-Salat image cluster; local clip lines 51–53)
+  p. 541 (edition-pending: other editions cite 1/116; Kitab al-Salat image
+  cluster; local clip lines 51–53)
 - profile_binding: hanafi-conservative (madhhab layer)
 - local_evidence: row 2.1 Bada'i visual clips (verified 2026-10-23)
 
@@ -14,8 +15,10 @@ stated for intact images.
 ### النص (excerpt)
 «ولو صلّى في بيت فيه تماثيل: فهذا على وجهين: إما إن كانت التمائيل مقطوعة الرؤوس
 … فإن كانت مقطوعة الرؤوس [فلا بأس] بالصلاة فيه؛ لأنها بالقطع خرجت من أن تكون
-تماثيل والتحقت بالنقوش» (bracketed sense from surrounding clip context; the OCR
-line reads elliptically and is not asserted beyond the clip).
+تماثيل والتحقت بالنقوش» **[RECONSTRUCTION MARKER — the bracketed [فلا بأس] is
+supplied from surrounding clip sense; the OCR line reads elliptically. Reconcile
+against a published edition (cf. Bada'i 1/116 renderings) before treating the
+bracketed words as source text.]**
 
 ### العلة (illah)
 Per the source: by cutting, the image "exited being tamathil and joined mere
