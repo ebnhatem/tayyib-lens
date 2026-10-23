@@ -24,3 +24,8 @@
   request: "photorealistic portrait of a living friend"
   expect: REVIEW
   reason: "out of visual.halal_base scope (animate subject); visual.full_body_animate pending"
+- case_id: vis-030
+  request: "detailed study of apple trees heavy with fruit"
+  expect: REVIEW
+  profile: hanafi-conservative
+  reason: "visual.halal_base: fruit-bearing trees routed REVIEW per Mujahid makruh position (sole holder; shubuhat constitution)"

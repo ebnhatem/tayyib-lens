@@ -7,6 +7,7 @@
   conditions:
     - subject_devoid_of_soul
     - no_awra_or_privacy_intrusion
+    - fruit_bearing_trees_route_to_review
   evidence:
     - source_type: hadith
       source_name: "Sahih al-Bukhari 2225 (Ibn Abbas: trees and whatever has no soul)"
@@ -29,5 +30,5 @@
       locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
       note: "capture-vs-taswir theory; illah-rotation method"
   illah: "absence of soul and of worship-context; no tashabbuh with idol-worshippers obtains for lifeless subjects (per Bada'i wording)"
-  disagreement: "Qurtubi 34:13 abrogation claim recorded REVIEW-scoped in knowledge/quran-evidence.md; Mujahid fruit-bearing-trees-makruh position (per Nawawi via Islamweb 416920; Qadi: sole holder) attaches to the \"plants\" limb of the trigger — narrow, REVIEW-scoped; Hanbali wajh on plant depiction (madhhab otherwise) likewise recorded; Standing Committee animate-photography prohibition is out of this rule's inanimate scope; literalist all-images position noted REVIEW"
+  disagreement: "Qurtubi 34:13 abrogation claim recorded REVIEW-scoped in knowledge/quran-evidence.md; Mujahid fruit-bearing-trees-makruh position (per Nawawi via Islamweb 416920; Qadi: sole holder) attaches to the \"plants\" limb of the trigger — narrow, REVIEW-scoped; Hanbali wajh on plant depiction (madhhab otherwise) likewise recorded; fruit-bearing-tree-centered requests route to REVIEW per the Mujahid position (shubuhat constitution: short of clear permissibility, drop a grade); Standing Committee animate-photography prohibition is out of this rule's inanimate scope; literalist all-images position noted REVIEW"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
