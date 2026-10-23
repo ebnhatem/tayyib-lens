@@ -1,2 +1,29 @@
 # Visual-domain rules. schema: references/evidence-schema.md
-# TODO: populate from knowledge/hanafi-visual.md + knowledge/ai-fatwas.md extraction
+- rule_id: visual.incomplete_image
+  category: visual
+  trigger: "request for imagery of animate beings missing life-essential parts (head cut, face effaced, chest perforated)"
+  verdict: MODIFY
+  profiles: {hanafi-conservative: MODIFY, egypt-dar-alifta: MODIFY, institutional-ai-safety: MODIFY}
+  conditions:
+    - life_essential_part_removed
+    - mere_limb_or_feature_removal_insufficient
+  evidence:
+    - source_type: hadith
+      source_name: "Sunan an-Nasa'i 5365 (cut off heads or trodden rug)"
+      locator: "https://sunnah.com/nasai:5365"
+      note: "Sahih (Darussalam); the two remediation exits"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (cut-head exits tamathil status)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541"
+      note: "category exit into naqsh; same edition precedent as PR #2/#4"
+    - source_type: fatwa
+      source_name: "Islamweb 372403 (incomplete image: headless body permitted)"
+      locator: "https://www.islamweb.net/ar/fatwa/372403"
+      note: "ghayr tammat al-khilqa; removal must be life-essential"
+    - source_type: fatwa
+      source_name: "Islamweb 173023 (severed head: khilaf and precaution)"
+      locator: "https://www.islamweb.net/ar/fatwa/173023"
+      note: "precaution: break the head until its form is gone"
+  illah: "the image is no longer complete in creation once a part without which life cannot remain is removed (per fatwa wording); by cutting it exits timthal status (per Bada'i wording)"
+  disagreement: "severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW"
+  safe_alternative: "prompts/visual-safe-rewrite.md#faceless-silhouette"

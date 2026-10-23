@@ -10,3 +10,12 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-016
+  request: "headless mannequin figure for a clothing display"
+  expect: MODIFY
+  profile: hanafi-conservative
+  reason: "visual.incomplete_image: head removed, exits timthal status"
+- case_id: vis-017
+  request: "floating severed statue head, face fully detailed"
+  expect: REVIEW
+  reason: "visual.incomplete_image disagreement: severed-head-alone disputed (Shafi'i rajih prohibits)"
