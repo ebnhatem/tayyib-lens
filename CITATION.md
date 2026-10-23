@@ -14,4 +14,5 @@
 | A-498 | article | Dar al-Ifta article 498, Quran with instruments | https://www.dar-alifta.org/en/article/details/498 | audio rules | verified |
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
+| F-24168 | fatwa | Dar al-Ifta 24168, animating the deceased | https://www.dar-alifta.org/en/fatwa/details/24168 | visual deceased_likeness | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->

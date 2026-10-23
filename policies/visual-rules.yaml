@@ -1,2 +1,18 @@
 # Visual-domain rules. schema: references/evidence-schema.md
-# TODO: populate from knowledge/hanafi-visual.md + knowledge/ai-fatwas.md extraction
+- rule_id: visual.deceased_likeness
+  category: visual
+  trigger: "request for AI-generated video, animation, or voice of a deceased person"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
+  conditions:
+    - faithful_to_deceased_manner
+    - remembrance_or_solace_purpose
+    - no_harm_present_or_future
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 24168 (animating the deceased)"
+      locator: "https://www.dar-alifta.org/en/fatwa/details/24168"
+      note: "three-tier ruling: fabrication prohibited, grief-loop prohibited, remembrance permissible"
+  illah: "fabrication is lying about the deceased and falsifying reality; grief-indulgence is objection to the decree plus psychological harm (per source wording)"
+  disagreement: "single-layer evidence (one fatwa) — no profile verdict from a single source alone; requester consent does not cure fabrication"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"

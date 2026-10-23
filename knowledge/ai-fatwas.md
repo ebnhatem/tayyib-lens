@@ -63,3 +63,35 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 العفيفة pass the five conditions; per the source, instrumental music routes to
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
+
+## [FATWA] Dar al-Ifta 24168 (EN): AI video of a deceased person — purpose-contingent ruling
+
+- locator: https://www.dar-alifta.org/en/fatwa/details/24168
+- profile_binding: all visual profiles (identity-consent gate)
+- local_evidence: row 0.11-series (verified 2026-10-23)
+
+### المسألة (issue)
+Animating still images of the deceased (recreated scenes, attributed speech).
+
+### النص (excerpt)
+"It is prohibited if the purpose … is to make the deceased appear to say what
+they did not actually say … attribute to them statements or commitments they
+never made, change facts, or portray them as having committed a religious or legal
+violation." … "However, it is permissible if such a video is created for
+remembrance, finding comfort, prompting prayers of mercy and forgiveness for them,
+provided it does not result in harm at any time, present or future."
+
+### العلة (illah)
+Per the source: fabrication = lying about the deceased and falsifying reality;
+grief-indulgence = inward objection to Allah's decree + psychological harm;
+solace/remembrance is the permissible purpose not conflicting with maqasid.
+
+### الخلاف (disagreement — recorded, not resolved)
+None recorded in-file; the technology is called "double-edged" with a call for
+responsible regulated use. Requester consent (the son) does not cure the
+fabrication tier.
+
+### safe_zone hint
+Purpose check first: faithful remembrance/solace framing may pass; fabricated
+speech, false commitments, or grief-loop framing are out — the spine of rule
+visual.deceased_likeness.
