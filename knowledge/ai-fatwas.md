@@ -64,11 +64,12 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
-## [FATWA] دار الإفتاء المصرية — فتوى 14722: التصوير والرسم من الفنون الجميلة بشروط
+## [FATWA] دار الإفتاء المصرية — فتوى 4539 (صفحة details/14722): التصوير والرسم من الفنون الجميلة بشروط
 
 - locator: https://www.dar-alifta.org/ar/fatwa/details/14722
 - profile_binding: egypt-dar-alifta
 - local_evidence: row 0.11-series (verified 2026-10-23)
+- fatwa_number_note: page displays «رقم الفتوى: 4539» (18 June 2015); 14722 is the URL ID, not the fatwa number
 
 ### المسألة (issue)
 حكم نشر الصور الفوتوغرافية (صور محجبة في كتاب سيرة بموافقة الأهل).
@@ -88,17 +89,18 @@ souls; permissibility turns on the three content conditions above.
 
 ### الخلاف (disagreement — recorded, not resolved)
 The fatwa does not discuss capture-vs-taswir theory or the classical prohibition
-texts; the fuller theory is in 19676 (card below). No dissent recorded in-file.
+texts; the fuller theory is in 8035 (card below). No dissent recorded in-file.
 
 ### safe_zone hint
 Per this fatwa, inanimate and chaste-subject imagery passes all three conditions
 trivially — a fatwa-layer support of rule visual.halal_base.
 
-## [FATWA] دار الإفتاء المصرية — فتوى 19676: التصوير الفوتوغرافي انحباس ظل لا تمثال
+## [FATWA] دار الإفتاء المصرية — فتوى 8035 (صفحة details/19676): التصوير الفوتوغرافي انحباس ظل لا تمثال
 
 - locator: https://www.dar-alifta.org/ar/fatwa/details/19676
 - profile_binding: egypt-dar-alifta
 - local_evidence: row 0.11-series (verified 2026-10-23)
+- fatwa_number_note: page displays «رقم الفتوى: 8035» (13 Sept 2021); 19676 is the URL ID, not the fatwa number
 
 ### المسألة (issue)
 هل تأخذ الصورة الفوتوغرافية حكم التصوير المنهي عنه في النصوص؟

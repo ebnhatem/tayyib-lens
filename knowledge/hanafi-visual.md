@@ -3,7 +3,7 @@
 ## [MADHHAB] Bada'i: lifeless images incur no karaha (trees and the like)
 
 - locator: Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1,
-  p. 542 (Kitab al-Salat image cluster; local clip lines 104–109)
+  p. 542 (edition-pending: other editions cite 1/116; Kitab al-Salat image cluster; local clip lines 104–109)
 - profile_binding: hanafi-conservative (madhhab layer)
 - local_evidence: row 2.1 Bada'i visual clips (verified 2026-10-23)
 

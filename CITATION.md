@@ -17,7 +17,7 @@
 <!-- TODO: complete from the PRD tier-1 corpus list -->
 | H-2225 | hadith | Sahih al-Bukhari 2225 (Ibn Abbas trees) | https://sunnah.com/bukhari:2225 | visual halal_base | verified |
 | H-2110a | hadith | Sahih Muslim 2110a (Ibn Abbas trees) | https://sunnah.com/muslim:2110a | visual halal_base | verified |
-| M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (lifeless images) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, p. 542 | visual halal_base | verified |
-| F-14722 | fatwa | Dar al-Ifta 14722, photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual rules | verified |
-| F-19676 | fatwa | Dar al-Ifta 19676, capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual rules | verified |
+| M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (lifeless images) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, p. 542 (edition-pending: other editions cite 1/116) | visual halal_base | verified |
+| F-4539 | fatwa | Dar al-Ifta 4539 (URL details/14722), photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual rules | verified |
+| F-8035 | fatwa | Dar al-Ifta 8035 (URL details/19676), capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual rules | verified |
 | Q-21-52 | tafsir | Kathir/Tabari on Quran 21:52 (worship qualifier) | https://quran.com/21:52 | visual halal_base | verified |

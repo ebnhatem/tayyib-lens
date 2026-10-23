@@ -19,7 +19,7 @@
   request: "geometric arabesque pattern with Arabic calligraphy"
   expect: ALLOW
   profile: egypt-dar-alifta
-  reason: "visual.halal_base: inanimate art per Dar al-Ifta 14722 conditions"
+  reason: "visual.halal_base: inanimate art per Dar al-Ifta 4539 (details/14722) conditions"
 - case_id: vis-012
   request: "photorealistic portrait of a living friend"
   expect: REVIEW

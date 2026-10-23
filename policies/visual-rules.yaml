@@ -18,14 +18,14 @@
       note: "same Sa'id b. Abi al-Hasan spine; unavoidability condition"
     - source_type: fiqh
       source_name: "Bada'i al-Sana'i, juz 1 (lifeless images incur no karaha)"
-      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 542"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 542 (edition-pending: other editions cite 1/116)"
       note: "first classical-citation precedent in this repo; edition locator, no URL"
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 14722 (photography and drawing as fine arts)"
+      source_name: "Dar al-Ifta, Fatwa 4539 (URL details/14722; photography and drawing as fine arts)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/14722"
       note: "permissible with three content conditions"
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 19676 (photography as shadow-confinement)"
+      source_name: "Dar al-Ifta, Fatwa 8035 (URL details/19676; photography as shadow-confinement)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
       note: "capture-vs-taswir theory; illah-rotation method"
   illah: "absence of soul and of worship-context; no tashabbuh with idol-worshippers obtains for lifeless subjects (per Bada'i wording)"
