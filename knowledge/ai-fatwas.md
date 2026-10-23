@@ -64,6 +64,9 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
+## [FATWA] Dar al-Ifta 8889 (URL details/22605): deepfake of a living person — two prohibited forms; documentary exception
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/22605 (page displays «رقم الفتوى: 8889», 3 Feb 2026 — verified by page open 2026-10-23; 22605 is the URL ID)
 ## [FATWA] Dar al-Ifta 8885 (URL details/24168; EN): AI video of a deceased person — purpose-contingent ruling
 
 - locator: https://www.dar-alifta.org/en/fatwa/details/24168 (AR view displays «رقم الفتوى: 8885», 1 Jan 2025 — verified by AR page open 2026-10-23; the EN view displays no number line (observed in extraction) — number rests on the AR view; 24168 is the URL ID)
@@ -71,6 +74,32 @@ hanafi-conservative.
 - local_evidence: row 0.11-series (verified 2026-10-23)
 
 ### المسألة (issue)
+Creating/using AI programs to simulate living persons (voice + image), and whether
+entertainment/mirth changes the ruling.
+
+### النص (excerpt)
+«إنشاء واستخدام برامج لمحاكاة الأحياء بالذكاء الاصطناعي بواسطة تقنية (التزييف
+العميق - DeepFake) لاختلاق الأحداث وتحريفها ونشر الفتنة في المجتمع- هو عمل
+مُحَرَّمٌ شرعًا … سواء كان بإذن صاحب الشأن أو كان دون إذنه، سواء كان للترفيه
+والمزاح أو لم يكن.» … documentary exception: «وتجوز المحاكاة التوثيقية بعرض ما
+حدث فعلًا … بشرط إذنه وانضباطه بالضوابط والقيود الشرعية … [مع] النص على أن
+المحتوى مولد بالذكاء الاصطناعي».
+
+### العلة (illah)
+Per the source, two prohibited forms: total fabrication of words/acts and
+distortive recontextualisation; wrongs instanced: lying, forgery, defamation,
+assault on honor/property (kaba'ir), identity theft. Consent does NOT lift the
+fabrication ban: «المحرمات لا تزول حرمتها برضا الأفراد».
+
+### الخلاف (disagreement — recorded, not resolved)
+None recorded in-file on the prohibition; the entertainment defence is anticipated
+and rejected for both prohibited forms.
+
+### safe_zone hint
+Real-living-person outputs must pass: (1) fabrication check (invented speech/act
+→ out, even with consent, even as joke); (2) distortion check; (3) documentary path
+needs owner consent + no distortion + AI labelling — the spine of rule
+visual.real_person_likeness.
 Animating still images of the deceased (recreated scenes, attributed speech).
 
 ### النص (excerpt)
