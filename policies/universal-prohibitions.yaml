@@ -7,11 +7,19 @@
   profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REJECT, institutional-ai-safety: REJECT}
   evidence:
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 22369 (AI depiction of the Divine Self)"
+      source_name: "Dar al-Ifta, Fatwa 8835 (URL details/22369; AI depiction of the Divine Self)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/22369"
-      note: "institutionally rejected"
+      note: "banned in every case (bi-ayyi hal min al-ahwal); four stated illahs; completeness verified against local file"
+    - source_type: quran
+      source_name: "Quran 42:11 (laysa kamithlihi shay' — tanzih root)"
+      locator: "https://quran.com/42:11"
+      note: "verse text collected 2026-10-23; scriptural tanzih root of the ban"
+    - source_type: tafsir
+      source_name: "Ibn Kathir on 42:11 (Unique, no peer or equal)"
+      locator: "https://quran.com/ash-shuraa/11/tafsirs/en-tafisr-ibn-kathir"
+      note: "accredited gloss; collected 2026-10-23"
   illah: "tashbih / dishonoring the transcendent"
-  disagreement: "none surveyed"
+  disagreement: "none surveyed; the fatwa frames the ban as the fixed creed position"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 - rule_id: visual.prophet_depiction
   category: visual
@@ -19,10 +27,15 @@
   verdict: REJECT
   profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REJECT, institutional-ai-safety: REJECT}
   evidence:
+    - source_type: article
+      source_name: "Al-Azhar Observer (prophets in artistic works; documents the 1972 academy consensus)"
+      locator: "https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/"
+      note: "reports the 1972 academy unanimous decision plus concurring bodies, as page content (attributive)"
     - source_type: fatwa
-      source_name: "Al-Azhar / Majma' al-Buhuth line on dramatizing prophets"
-      locator: "TODO: pin azhar.eg locator"
+      source_name: "Dar al-Ifta, Fatwa 3392 (URL details/13236; prophets haram; documents decisions 20/1972 and 100/1999)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/13236"
+      note: "page displays fatwa no. 3392 (30 Dec 2013); decision no. 20 confirmed 22 Feb 1972 (7 Muharram 1392) — resolves the Observer March-vs-February variance in favour of the dated decision; decision no. 100 (30 June 1999) extends the ban to stage/screen/TV/any device"
   illah: "diminishing prophetic rank; fitna"
-  disagreement: "none surveyed in the Egyptian institutional line"
+  disagreement: "LAYER GAP RECORDED: both evidence items are institutional-documentary (single layer) — no classical TEXT/TAFSIR anchor in-corpus yet (the 'isma/Satan-hadith layer would need its own verified hadith file). Maintainer-gated; close before v1.0 advisory review. Companion/righteous-figure depiction disputed in surveyed dissent (fiqh-islamonline, seekersguidance-167488 note scope) — REVIEW-scoped, never profile-backing; 3392 itself permits conditional Companion depiction (noble purpose + five controls) while excepting the Ten, Mothers of the Believers, the Prophet's daughters, and the Household outright"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 # TODO: nudity/pornography, deepfake deception, false attribution of speech
