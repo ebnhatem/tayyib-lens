@@ -1,2 +1,26 @@
 # Visual-domain rules. schema: references/evidence-schema.md
-# TODO: populate from knowledge/hanafi-visual.md + knowledge/ai-fatwas.md extraction
+- rule_id: visual.digital_photography
+  category: visual
+  trigger: "request for photographic or photorealistic capture of real scenes, people, or events"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
+  conditions:
+    - no_awra_exposure
+    - no_privacy_intrusion
+    - lawful_or_beneficial_motive
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 19676 (photography as shadow-confinement)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
+      note: "capture-vs-taswir theory; illah-rotation method"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 14722 (photography and drawing as fine arts)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/14722"
+      note: "permissible with three content conditions"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 16725 (shadowless image; noble motive)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/16725"
+      note: "early scoped formulation; ID photos, weddings"
+  illah: "photography is confinement of shadow, not three-dimensional figuration; where the worship/rivalry illah is absent the prohibition lifts (per source wording)"
+  disagreement: "Standing Committee animate-photography prohibition and MuftiOnline 89857 contest animate capture wholesale — REVIEW; no profile verdict from a single layer alone"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
