@@ -21,3 +21,4 @@
 | F-4539 | fatwa | Dar al-Ifta 4539 (URL details/14722), photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual rules | verified |
 | F-8035 | fatwa | Dar al-Ifta 8035 (URL details/19676), capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual rules | verified |
 | Q-21-52 | tafsir | Kathir/Tabari on Quran 21:52 (worship qualifier) | https://quran.com/21:52 | visual halal_base | verified |
+| I-416920 | fatwa | Islamweb 416920, plants drawing (Mujahid dissent) | https://www.islamweb.net/ar/fatwa/416920 | visual halal_base disagreement | verified |
