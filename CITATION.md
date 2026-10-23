@@ -14,4 +14,8 @@
 | A-498 | article | Dar al-Ifta article 498, Quran with instruments | https://www.dar-alifta.org/en/article/details/498 | audio rules | verified |
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
+| H-5954 | hadith | Sahih al-Bukhari 5954 (curtain torn; cushions) | https://sunnah.com/bukhari:5954 | visual full_body_animate | verified |
+| H-5957 | hadith | Sahih al-Bukhari 5957 (pictured cushion refused) | https://sunnah.com/bukhari:5957 | visual full_body_animate | verified |
+| H-2106a | hadith | Sahih Muslim 2106a (angels bar) | https://sunnah.com/muslim:2106a | visual full_body_animate | verified |
+| M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (intact-image karaha) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, p. 541 | visual full_body_animate | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->

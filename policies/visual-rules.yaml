@@ -1,2 +1,29 @@
 # Visual-domain rules. schema: references/evidence-schema.md
-# TODO: populate from knowledge/hanafi-visual.md + knowledge/ai-fatwas.md extraction
+- rule_id: visual.full_body_animate
+  category: visual
+  trigger: "request for imagery depicting complete living beings (humans, animals) with intact form"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - intact_animate_form
+    - no_worship_or_veneration_context_asserted
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5954 (curtain torn; severest punishment; cushions)"
+      locator: "https://sunnah.com/bukhari:5954"
+      note: "mudaha illah; displayed images removed, degraded reuse only"
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5957 (pictured cushion refused; make-alive challenge)"
+      locator: "https://sunnah.com/bukhari:5957"
+      note: "angels bar; no degraded-use exception recorded in this narration"
+    - source_type: hadith
+      source_name: "Sahih Muslim 2106a (angels bar: dog or picture)"
+      locator: "https://sunnah.com/muslim:2106a"
+      note: "unqualified keeping-bar; remediation scope from companion narrations"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (intact images: placement-graded karaha)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541"
+      note: "tashabbuh illah; strongest karaha facing qibla"
+  illah: "rivalry with creation (mudaha) and the ensoulment challenge; resemblance to idol-worshippers where displayed (per sources' wording)"
+  disagreement: "cushion-refusal (5957) vs cushion-reuse (5954, Muslim 2107i) tension recorded REVIEW; Islamweb AI-image permissibility (475069/519001) contests extension to device-dependent images — REVIEW"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"

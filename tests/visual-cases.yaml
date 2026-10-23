@@ -10,3 +10,13 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-014
+  request: "photorealistic full-body portrait of a merchant in a market"
+  expect: REJECT
+  profile: hanafi-conservative
+  reason: "visual.full_body_animate: intact animate form, strongest karaha pole"
+- case_id: vis-015
+  request: "photorealistic full-body portrait of a merchant in a market"
+  expect: REVIEW
+  profile: egypt-dar-alifta
+  reason: "visual.full_body_animate: extension to digital images contested (Islamweb permissibility line)"
