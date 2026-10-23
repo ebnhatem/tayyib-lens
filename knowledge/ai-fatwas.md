@@ -67,7 +67,7 @@ hanafi-conservative.
 ## [FATWA] Islamweb 475069 + 519001: AI-generated animate images — preponderant permissibility with content controls
 
 - locators: https://www.islamweb.net/en/fatwa/475069 ·
-  https://www.islamweb.net/ar/fatwa/print.php?id=519001
+  https://www.islamweb.net/ar/fatwa/519001
 - profile_binding: institutional-ai-safety (preponderant-view line)
 - local_evidence: row 1.15-series (verified 2026-10-23)
 

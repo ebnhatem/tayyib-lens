@@ -15,5 +15,5 @@
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
 | I-475069 | fatwa | Islamweb 475069, AI-generated humans | https://www.islamweb.net/en/fatwa/475069 | visual ai_generated_images | verified |
-| I-519001 | fatwa | Islamweb 519001, AI digital animate images | https://www.islamweb.net/ar/fatwa/print.php?id=519001 | visual ai_generated_images | verified |
+| I-519001 | fatwa | Islamweb 519001, AI digital animate images | https://www.islamweb.net/ar/fatwa/519001 | visual ai_generated_images | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->
