@@ -64,9 +64,9 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
-## [FATWA] Dar al-Ifta 24168 (EN): AI video of a deceased person — purpose-contingent ruling
+## [FATWA] Dar al-Ifta 8885 (URL details/24168; EN): AI video of a deceased person — purpose-contingent ruling
 
-- locator: https://www.dar-alifta.org/en/fatwa/details/24168
+- locator: https://www.dar-alifta.org/en/fatwa/details/24168 (AR page displays «رقم الفتوى: 8885», 1 Jan 2025 — verified by page open 2026-10-23; 24168 is the URL ID)
 - profile_binding: all visual profiles (identity-consent gate)
 - local_evidence: row 0.11-series (verified 2026-10-23)
 
@@ -89,7 +89,7 @@ solace/remembrance is the permissible purpose not conflicting with maqasid.
 ### الخلاف (disagreement — recorded, not resolved)
 None recorded in-file; the technology is called "double-edged" with a call for
 responsible regulated use. Requester consent (the son) does not cure the
-fabrication tier.
+fabrication tier. Pending-collection notes (bucket-B, not evidence): AR twin details/22586; MuftiWP Irsyad 861 (stricter — bars animation); al-Atrash prohibition; DUMK strict line. Voice-cloning of the deceased is out of scope (source: video/animation only).
 
 ### safe_zone hint
 Purpose check first: faithful remembrance/solace framing may pass; fabricated
