@@ -2,7 +2,7 @@
 - rule_id: visual.children_play_dolls
   category: visual
   trigger: "request for physical doll or toy-figure imagery for young children's play"
-  verdict: MODIFY
+  verdict: REVIEW
   profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
   conditions:
     - young_child_play_context
