@@ -114,3 +114,168 @@ retains exquisite creation — is cited against analogy with the body.
 ### safe_zone hint
 The fatwa's own precaution (efface/break the head) is the conservative routing for
 head-intact severed outputs.
+## [FATWA] دار الإفتاء المصرية — فتوى 8835 (صفحة details/22369): تحريم تصوير الذات الإلهية بالذكاء الاصطناعي مطلقًا
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/22369 (page displays «رقم الفتوى: 8835», 4 Dec 2025 — verified by page open 2026-10-23; 22369 is the URL ID)
+- profile_binding: all visual profiles (universal prohibition)
+- local_evidence: row 0.11-series (verified 2026-10-23)
+
+### المسألة (issue)
+حكم استخدام الذكاء الاصطناعي لتوليد صور أو نماذج تجسد الذات الإلهية.
+
+### النص (excerpt)
+«استخدامَ تقنياتِ الذكاءِ الاصطناعي في تصميم صورٍ … تُجسِّدُ الذاتَ الإلهيَّةَ
+-يُعدُّ تشبيهًا وتمثيلًا محرَّمًا شرعًا، يحرم الإقدام عليه بأي حال من الأحوال.»
+
+### العلة (illah)
+Per the source, four stated grounds: نفي التشبيه, النهي عن التفكر في الذات,
+التعدي على الغيب, سد الذرائع (especially false beliefs among the young).
+
+### الخلاف (disagreement — recorded, not resolved)
+None recorded in-file; framed as the fixed creed position. Completeness for
+visual.divine_depiction: VERIFIED — stated without qualification or exception.
+
+### safe_zone hint
+Hard prohibition anchor — no consent, education, or artistic-purpose override exists
+in this source. Second layer: Quran 42:11 tanzih root (new card below) — REJECT now two-sourced.
+
+## [TEXT] Quran 42:11 — tanzih root (laysa kamithlihi shay')
+
+- locator: https://quran.com/42:11 (Page 484, Juz 25)
+- profile_binding: all visual profiles (universal prohibition, divine limb)
+- local_evidence: 02_QURAN_42-11_clean.md (verified 2026-10-23)
+
+### النص (excerpt)
+«لَيْسَ كَمِثْلِهِ شَىْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ» — "There is nothing like
+Him, for He alone is the All-Hearing, All-Seeing."
+
+## [TAFSIR] Ibn Kathir on 42:11 — Unique, no peer or equal
+
+- locator: https://quran.com/ash-shuraa/11/tafsirs/en-tafisr-ibn-kathir
+- profile_binding: all visual profiles (universal prohibition, divine limb)
+- local_evidence: 02_QURAN_42-11_kathir_clean.md (verified 2026-10-23)
+
+### النص (excerpt)
+"(There is nothing like Him,) means, there is nothing like the Creator of these
+pairs, for He is the Unique, the Self-Sufficient Master, Who has no peer or equal."
+
+### safe_zone hint
+Scriptural tanzih root of visual.divine_depiction alongside 8835.
+
+## [FATWA] مرصد الأزهر — تجسيد الأنبياء والرسل في الأعمال الفنية (توثيق قرار المجمع 1972)
+
+- locator: https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/ (page blocks automated fetching; key sentence confirmed via search-indexed copy and corroborated by Dar al-Ifta 13236 + press coverage — verification route recorded, not a direct fetch)
+- profile_binding: all visual profiles (universal prohibition)
+- local_evidence: azhar-observer-prophets (verified 2026-10-23)
+
+### المسألة (issue)
+حكم تجسيد الأنبياء والرسل في الأعمال الفنية تمثيلًا وتصويرًا.
+
+### النص (excerpt)
+«درء المفاسد مقدم على جلب المصالح» … «ناقش مجمع البحوث الإسلامية في مارس 1972م
+هذه المسألة، وقرر بالإجماع تحريم تمثيل أشخاص الأنبياء والرسل عليهم السلام.»
+
+### العلة (illah)
+Per the article: the harm in embodying prophets outweighs the benefit of
+popularizing their stories; prophetic rank (Satan himself cannot assume the
+Prophet's likeness) bars human embodiment.
+
+### الخلاف (disagreement — recorded, not resolved)
+The article reports the 1972 decision as unanimous and lists concurring bodies —
+recorded as page content; now corroborated by Dar al-Ifta 3392 (URL details/13236, new card below), which documents decision no. 20 as 22 Feb 1972 (7 Muharram 1392) and decision no. 100 as 30 June 1999 — the dated decision resolves the article's "March 1972" in favour of February. Companion-figure depiction is disputed in surveyed dissent — REVIEW-scoped; 3392 itself permits conditional Companion depiction (excepting the Ten, Mothers of the Believers, the Prophet's daughters, the Household).
+
+### safe_zone hint
+Completion anchor for visual.prophet_depiction — any prophet-embodiment output is out.
+
+## [FATWA] Dar al-Ifta 3392 (URL details/13236): prophets haram; academy decisions 20/1972 + 100/1999 documented
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/13236 (page displays «رقم الفتوى: 3392», 30 Dec 2013, Shawki Allam — 13236 is the URL ID; collected 2026-10-23)
+- profile_binding: all visual profiles (universal prohibition, prophet limb)
+- local_evidence: 05_FATWAS_dar-alifta-13236_clean.md (+ .meta.md)
+
+### المسألة (issue)
+Depicting prophets, Companions, and Mothers of the Believers in TV works.
+
+### النص (excerpt)
+«تمثيل الأنبياء حرام شرعًا» (by 'isma and rank; Satan-hadith cited).
+«وقد سبقه القرار رقم [20] … بتاريخ 7 من محرم 1392هـ الموافق 22 من فبراير 1972م،
+وفيه: عدم جواز تمثيل الشخصيات الإسلامية ذات المكانة والإجلال والقدوة.»
+«قراره رقم [100] … بتاريخ 16 من ربيع الأول 1420هـ الموافق 30 من يونيه 1999م،
+أنه لا يجوز أن يشتمل عمل تمثيلي … على شخصيةٍ من: الأنبياء، والرسل، والعشرة
+المبشرين بالجنة، وآل البيت الكرام.»
+
+### العلة (illah)
+Per the source: 'isma + rank; prophetic likeness protected even from Satan;
+«درء المفاسد مُقَدَّم على جلب المصالح».
+
+### الخلاف (disagreement — recorded, not resolved)
+The fatwa's own companion limb (conditional permissibility with five controls;
+Ten/Mothers/daughters/Household excepted outright) bounds the Companion dispute zone — REVIEW-scoped.
+
+### safe_zone hint
+Second source for visual.prophet_depiction: Egyptian-institution documentation of both academy decisions.
+## [FATWA] دار الإفتاء المصرية — فتوى 4539 (صفحة details/14722): التصوير والرسم من الفنون الجميلة بشروط
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/14722
+- profile_binding: egypt-dar-alifta
+- local_evidence: row 0.11-series (verified 2026-10-23)
+- fatwa_number_note: page displays «رقم الفتوى: 4539» (18 June 2015); 14722 is the URL ID, not the fatwa number
+
+### المسألة (issue)
+حكم نشر الصور الفوتوغرافية (صور محجبة في كتاب سيرة بموافقة الأهل).
+
+### النص (excerpt)
+«التصوير والرسم من الفنون الجميلة التي لها أثرٌ طيبٌ في راحة النفوس والترويح عنها،
+وهما جائزان شرعًا شريطة أن يخلو من الآثام والمحرمات.»
+
+### الشروط (conditions)
+1. خلوّ العمل من الآثام والمحرمات.
+2. ألا يكون مثيرًا للشهوات وملهبًا للغرائز.
+3. ألا يكون الموضوع جسدًا عاريًا أو عورة.
+
+### العلة (illah)
+Per the source, photography and drawing are fine arts with a wholesome effect on
+souls; permissibility turns on the three content conditions above.
+
+### الخلاف (disagreement — recorded, not resolved)
+The fatwa does not discuss capture-vs-taswir theory or the classical prohibition
+texts; the fuller theory is in 8035 (card below). No dissent recorded in-file.
+
+### safe_zone hint
+Per this fatwa, inanimate and chaste-subject imagery passes all three conditions
+trivially — a fatwa-layer support of rule visual.halal_base.
+
+## [FATWA] دار الإفتاء المصرية — فتوى 8035 (صفحة details/19676): التصوير الفوتوغرافي انحباس ظل لا تمثال
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/19676
+- profile_binding: egypt-dar-alifta
+- local_evidence: row 0.11-series (verified 2026-10-23)
+- fatwa_number_note: page displays «رقم الفتوى: 8035» (13 Sept 2021); 19676 is the URL ID, not the fatwa number
+
+### المسألة (issue)
+هل تأخذ الصورة الفوتوغرافية حكم التصوير المنهي عنه في النصوص؟
+
+### النص (excerpt)
+«فالتصوير الفوتوغرافي: انحباس ظل، والتصوير الذي ورد النهي عنه: هو التمثيل أو
+ما جُعل على نظير مثال سابق قابل للأبعاد الثلاثة» … «العبرة في الأحكام للمعاني
+لا للألفاظ والمباني» … «فإذا زالت علة التحريم -وهي العبادة أو المضاهاة-
+زال التحريم» … «الحكم يدور مع علته وجودًا وعدمًا».
+
+### العلة (illah)
+Per the source (citing Ibn al-'Arabi and al-Nawawi as quoted): the prohibited
+taswir's 'illah was idolatry-association and rivalry with creation (مضاهاة);
+photography differs in reality (shadow-confinement vs. three-dimensional
+figuration) and, where the 'illah is absent, the prohibition lifts.
+
+### الشروط (conditions)
+«فإذا خلا من كشف العورات أو اختراق الخصوصيات فلا مانع منه شرعًا.»
+
+### الخلاف (disagreement — recorded, not resolved)
+A minority literalist position treats all image-making as prohibited regardless of
+'illah analysis — REVIEW-scoped, not settled ijma'. The Standing Committee
+photography-of-living-beings position is out of this rule's (inanimate) scope.
+
+### safe_zone hint
+Per this fatwa, capture of soulless subjects with no 'awra or privacy intrusion is
+unobjectionable — the theory card behind visual.halal_base and
+visual.digital_photography.
