@@ -3,7 +3,7 @@
 ## [MADHHAB] Bada'i: trodden and small images — imtihan and inconspicuousness
 
 - locator: Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1,
-  p. 542 (local clip lines 90–98)
+  p. 542 (edition-pending: other editions cite 1/195; local clip lines 90–98)
 - profile_binding: hanafi-conservative (madhhab layer)
 - local_evidence: row 2.1 Bada'i visual clips (verified 2026-10-23)
 

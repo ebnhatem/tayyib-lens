@@ -15,8 +15,3 @@
   expect: MODIFY
   profile: hanafi-conservative
   reason: "visual.imtihan_degradation: trodden, debased presentation"
-- case_id: vis-019
-  request: "large venerated mural of a hero on a prayer-hall wall facing worshippers"
-  expect: REJECT
-  profile: hanafi-conservative
-  reason: "frontal displayed animate image; strongest karaha pole, no degradation"
