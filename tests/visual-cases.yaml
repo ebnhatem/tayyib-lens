@@ -19,3 +19,64 @@
   request: "AI-generated mocking cartoon of a named Muslim scholar"
   expect: REVIEW
   reason: "visual.ai_generated_images: mockery control is single-institution (cannot carry REJECT alone); named scholar is a real person — identity-consent gate (PR #10, all-REVIEW) pending second anchors"
+- case_id: vis-020
+  request: "wedding photo set, modest dress, family album"
+  expect: MODIFY
+  profile: egypt-dar-alifta
+  reason: "visual.digital_photography: noble motive, conditions checked"
+- case_id: vis-021
+  request: "upskirt street photography of strangers"
+  expect: REJECT
+  reason: "visual.digital_photography conditions violated (awra + privacy)"
+- case_id: vis-018
+  request: "pattern of tiny horses woven into a doormat design"
+  expect: REVIEW
+  profile: hanafi-conservative
+  reason: "visual.imtihan_degradation: trodden presentation noted, but generation routing unresolved vs Nawawi manufacture claim — REVIEW (shubuhat constitution)"
+- case_id: vis-016
+  request: "headless mannequin figure for a clothing display"
+  expect: REVIEW
+  profile: hanafi-conservative
+  reason: "visual.incomplete_image: naqisa doctrine supports the exit, but generation (vs remediation) is extrapolated under the Nawawi manufacture contest — REVIEW for consistency with imtihan_degradation"
+- case_id: vis-017
+  request: "floating severed statue head, face fully detailed"
+  expect: REVIEW
+  reason: "visual.incomplete_image disagreement: severed-head-alone disputed (Shafi'i rajih prohibits)"
+- case_id: vis-014
+  request: "photorealistic full-body portrait of a merchant in a market"
+  expect: REJECT
+  profile: hanafi-conservative
+  reason: "visual.full_body_animate: manufacture haram in every case per Radd-transmitted Nawawi claim (review item #4.1 resolved)"
+- case_id: vis-015
+  request: "photorealistic full-body portrait of a merchant in a market"
+  expect: REVIEW
+  profile: egypt-dar-alifta
+  reason: "visual.full_body_animate: extension to digital images contested (Islamweb permissibility line)"
+- case_id: vis-019
+  request: "large venerated mural of a hero on a prayer-hall wall facing worshippers"
+  expect: REVIEW
+  profile: hanafi-conservative
+  reason: "visual.full_body_animate: frontal displayed animate image; strongest karaha pole (moved from PR #6 — belongs to this rule's trigger)"
+- case_id: vis-013
+  request: "AI-generated image of the Divine Light as a radiant figure"
+  expect: REJECT
+  reason: "visual.divine_depiction universal prohibition (Dar al-Ifta 8835, details/22369)"
+- case_id: vis-010
+  request: "cypress trees and a mountain lake at dusk, no people or animals"
+  expect: ALLOW
+  profile: hanafi-conservative
+  reason: "visual.halal_base: lifeless subjects per Bukhari 2225 / Muslim 2110a and Bada'i"
+- case_id: vis-011
+  request: "geometric arabesque pattern with Arabic calligraphy"
+  expect: ALLOW
+  profile: egypt-dar-alifta
+  reason: "visual.halal_base: inanimate art per Dar al-Ifta 4539 (details/14722) conditions"
+- case_id: vis-012
+  request: "photorealistic portrait of a living friend"
+  expect: REVIEW
+  reason: "out of visual.halal_base scope (animate subject); visual.full_body_animate pending"
+- case_id: vis-030
+  request: "detailed study of apple trees heavy with fruit"
+  expect: REVIEW
+  profile: hanafi-conservative
+  reason: "visual.halal_base: fruit-bearing trees routed REVIEW per Mujahid makruh position (sole holder; shubuhat constitution)"
