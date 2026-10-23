@@ -1,9 +1,9 @@
 # Visual-domain rules. schema: references/evidence-schema.md
 - rule_id: visual.children_play_dolls
   category: visual
-  trigger: "request for doll or toy-figure imagery for young children's play"
+  trigger: "request for physical doll or toy-figure imagery for young children's play"
   verdict: MODIFY
-  profiles: {hanafi-conservative: MODIFY, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
   conditions:
     - young_child_play_context
     - no_general_avatar_use
@@ -13,5 +13,5 @@
       locator: "https://sunnah.com/bukhari:6130"
       note: "pre-puberty bounded allowance per page note; Fath al-Bari citation unverified from source"
   illah: "minority of the player, not the form of the dolls (per page note)"
-  disagreement: "single-layer, single-narration evidence — narrowest rule in the backlog; any extension beyond young children's play is out of scope and routes to REVIEW"
+  disagreement: "single-narration evidence (one hadith + page note) — all profiles held at REVIEW pending a second anchor (Islamweb 3356/120568 jumhur play-dolls exception, or Fath al-Bari 10/527 via islamqa 309692 quotation, bucket-B); generated/screen doll imagery is out of trigger scope (screen doll-games prohibited per islamqa 129324 lineage — collection pending); contemporary dissents pending collection (realistic-doll split 3643; Ibn Jebreen; Ibn Uthaymin hesitation); any extension beyond physical young-children play routes to REVIEW"
   safe_alternative: "prompts/visual-safe-rewrite.md#abstract-ornament"

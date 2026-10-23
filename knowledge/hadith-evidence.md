@@ -23,7 +23,7 @@ not yet reached the age of puberty»), not in the dolls' form.
 ### الخلاف (disagreement — recorded, not resolved)
 The general threat block (5954/5957/2106a) stands alongside; the page's own note
 bars generalization. The extraction lane's caution is adopted: bounded to young
-children's play, NOT a general avatar license.
+children's physical play, NOT a general avatar license. Pending-collection notes (bucket-B, not evidence): Islamweb 3356/120568 (jumhur play-dolls exception per Nawawi); Fath al-Bari 10/527 passage (via islamqa 309692 quotation); contemporary realistic-doll split (Islamweb 3643), Ibn Jebreen, Ibn Uthaymin, screen doll-games line (islamqa 129324).
 
 ### safe_zone hint
 Dolls attested only inside the bounded pre-puberty-play frame — the spine of rule
