@@ -64,9 +64,9 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
-## [FATWA] دار الإفتاء المصرية — فتوى 22369: تحريم تصوير الذات الإلهية بالذكاء الاصطناعي مطلقًا
+## [FATWA] دار الإفتاء المصرية — فتوى 8835 (صفحة details/22369): تحريم تصوير الذات الإلهية بالذكاء الاصطناعي مطلقًا
 
-- locator: https://www.dar-alifta.org/ar/fatwa/details/22369
+- locator: https://www.dar-alifta.org/ar/fatwa/details/22369 (page displays «رقم الفتوى: 8835», 4 Dec 2025 — verified by page open 2026-10-23; 22369 is the URL ID)
 - profile_binding: all visual profiles (universal prohibition)
 - local_evidence: row 0.11-series (verified 2026-10-23)
 
@@ -89,9 +89,9 @@ visual.divine_depiction: VERIFIED — stated without qualification or exception.
 Hard prohibition anchor — no consent, education, or artistic-purpose override exists
 in this source.
 
-## [FATWA] مرصد الأزهر — تجسيد الأنبياء والرسل في الأعمال الفنية (توثيق إجماع 1972)
+## [FATWA] مرصد الأزهر — تجسيد الأنبياء والرسل في الأعمال الفنية (توثيق قرار المجمع 1972)
 
-- locator: https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/
+- locator: https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/ (page blocks automated fetching; key sentence confirmed via search-indexed copy and corroborated by Dar al-Ifta 13236 + press coverage — verification route recorded, not a direct fetch)
 - profile_binding: all visual profiles (universal prohibition)
 - local_evidence: azhar-observer-prophets (verified 2026-10-23)
 
@@ -109,7 +109,7 @@ Prophet's likeness) bars human embodiment.
 
 ### الخلاف (disagreement — recorded, not resolved)
 The article reports the 1972 decision as unanimous and lists concurring bodies —
-recorded as page content, not independently verified history. Companion-figure
+recorded as page content, not independently verified history. Date discrepancy recorded: the article says March 1972; Dar al-Ifta 13236 dates academy decision no. 20 to 22 Feb 1972 (7 Muharram 1392) — not harmonized here. Companion-figure
 depiction is disputed in surveyed dissent — REVIEW-scoped.
 
 ### safe_zone hint
