@@ -1,4 +1,36 @@
 # Visual-domain rules. schema: references/evidence-schema.md
+- rule_id: visual.full_body_animate
+  category: visual
+  trigger: "request for imagery depicting complete living beings (humans, animals) with intact form"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - intact_animate_form
+    - no_worship_or_veneration_context_asserted
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5954 (curtain torn; severest punishment; cushions)"
+      locator: "https://sunnah.com/bukhari:5954"
+      note: "mudaha illah; displayed images removed, degraded reuse only"
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5957 (pictured cushion refused; make-alive challenge)"
+      locator: "https://sunnah.com/bukhari:5957"
+      note: "angels bar; no degraded-use exception recorded in this narration"
+    - source_type: hadith
+      source_name: "Sahih Muslim 2106a (angels bar: dog or picture)"
+      locator: "https://sunnah.com/muslim:2106a"
+      note: "unqualified keeping-bar; remediation scope from companion narrations"
+    - source_type: fiqh
+      source_name: "Radd al-Muhtar 1/647 (Nawawi manufacture-ijma claim)"
+      locator: "Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.)"
+      note: "making animate images haram in every case, even for degraded use; use/wearing distinguished in gloss"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (intact images: placement-graded karaha)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
+      note: "tashabbuh illah; strongest karaha facing qibla"
+  illah: "rivalry with creation (mudaha) and the ensoulment challenge; resemblance to idol-worshippers where displayed (per sources' wording)"
+  disagreement: "cushion-refusal (5957) vs cushion-reuse (5954, Muslim 2107i) tension recorded REVIEW; Islamweb AI-image permissibility (475069/519001) contests extension to device-dependent images — REVIEW; hanafi-conservative REJECT rests on the Radd-transmitted Nawawi manufacture-ijma claim (review item #4.1 resolved by in-corpus extraction)"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 - rule_id: visual.halal_base
   category: visual
   trigger: "request for imagery of nature, plants, landscapes, architecture, geometry, calligraphy, inanimate objects, or other soulless subjects"
