@@ -64,9 +64,9 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
-## [FATWA] Dar al-Ifta 22605: deepfake of a living person — two prohibited forms; documentary exception
+## [FATWA] Dar al-Ifta 8889 (URL details/22605): deepfake of a living person — two prohibited forms; documentary exception
 
-- locator: https://www.dar-alifta.org/ar/fatwa/details/22605
+- locator: https://www.dar-alifta.org/ar/fatwa/details/22605 (page displays «رقم الفتوى: 8889», 3 Feb 2026 — verified by page open 2026-10-23; 22605 is the URL ID)
 - profile_binding: all visual profiles (identity-consent gate)
 - local_evidence: row 0.11-series (verified 2026-10-23)
 

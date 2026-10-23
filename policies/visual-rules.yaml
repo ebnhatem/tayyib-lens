@@ -3,16 +3,16 @@
   category: visual
   trigger: "request for AI-generated or deepfake imagery/voice of a real living person"
   verdict: REVIEW
-  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REJECT}
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
   conditions:
     - no_fabrication_of_speech_or_act
     - no_distortive_recontextualisation
     - documentary_path_only_with_consent_and_labelling
   evidence:
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 22605 (deepfake of a living person)"
+      source_name: "Dar al-Ifta, Fatwa 8889 (URL details/22605; deepfake of a living person)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/22605"
       note: "two prohibited forms; consent and entertainment no excuse; documentary exception"
   illah: "lying, forgery, defamation, assault on honor and property; prohibitions are not lifted by individual consent (per source wording)"
-  disagreement: "single-layer evidence (one fatwa) — no profile verdict from a single source alone; documentary-exception scope is the source's own narrow definition"
+  disagreement: "single-layer evidence (one fatwa) — REJECT routing deferred to owner with all profiles held at REVIEW pending a second independent anchor (ghish/lying hadith layer + second institution position, bucket-B); documentary-exception scope is the source's own narrow definition"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
