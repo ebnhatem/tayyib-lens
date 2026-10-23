@@ -87,7 +87,30 @@ visual.divine_depiction: VERIFIED — stated without qualification or exception.
 
 ### safe_zone hint
 Hard prohibition anchor — no consent, education, or artistic-purpose override exists
-in this source.
+in this source. Second layer: Quran 42:11 tanzih root (new card below) — REJECT now two-sourced.
+
+## [TEXT] Quran 42:11 — tanzih root (laysa kamithlihi shay')
+
+- locator: https://quran.com/42:11 (Page 484, Juz 25)
+- profile_binding: all visual profiles (universal prohibition, divine limb)
+- local_evidence: 02_QURAN_42-11_clean.md (verified 2026-10-23)
+
+### النص (excerpt)
+«لَيْسَ كَمِثْلِهِ شَىْءٌ وَهُوَ السَّمِيعُ الْبَصِيرُ» — "There is nothing like
+Him, for He alone is the All-Hearing, All-Seeing."
+
+## [TAFSIR] Ibn Kathir on 42:11 — Unique, no peer or equal
+
+- locator: https://quran.com/ash-shuraa/11/tafsirs/en-tafisr-ibn-kathir
+- profile_binding: all visual profiles (universal prohibition, divine limb)
+- local_evidence: 02_QURAN_42-11_kathir_clean.md (verified 2026-10-23)
+
+### النص (excerpt)
+"(There is nothing like Him,) means, there is nothing like the Creator of these
+pairs, for He is the Unique, the Self-Sufficient Master, Who has no peer or equal."
+
+### safe_zone hint
+Scriptural tanzih root of visual.divine_depiction alongside 8835.
 
 ## [FATWA] مرصد الأزهر — تجسيد الأنبياء والرسل في الأعمال الفنية (توثيق قرار المجمع 1972)
 
@@ -109,8 +132,35 @@ Prophet's likeness) bars human embodiment.
 
 ### الخلاف (disagreement — recorded, not resolved)
 The article reports the 1972 decision as unanimous and lists concurring bodies —
-recorded as page content, not independently verified history. Date discrepancy recorded: the article says March 1972; Dar al-Ifta 13236 dates academy decision no. 20 to 22 Feb 1972 (7 Muharram 1392) — not harmonized here. Companion-figure
-depiction is disputed in surveyed dissent — REVIEW-scoped.
+recorded as page content; now corroborated by Dar al-Ifta 3392 (URL details/13236, new card below), which documents decision no. 20 as 22 Feb 1972 (7 Muharram 1392) and decision no. 100 as 30 June 1999 — the dated decision resolves the article's "March 1972" in favour of February. Companion-figure depiction is disputed in surveyed dissent — REVIEW-scoped; 3392 itself permits conditional Companion depiction (excepting the Ten, Mothers of the Believers, the Prophet's daughters, the Household).
 
 ### safe_zone hint
 Completion anchor for visual.prophet_depiction — any prophet-embodiment output is out.
+
+## [FATWA] Dar al-Ifta 3392 (URL details/13236): prophets haram; academy decisions 20/1972 + 100/1999 documented
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/13236 (page displays «رقم الفتوى: 3392», 30 Dec 2013, Shawki Allam — 13236 is the URL ID; collected 2026-10-23)
+- profile_binding: all visual profiles (universal prohibition, prophet limb)
+- local_evidence: 05_FATWAS_dar-alifta-13236_clean.md (+ .meta.md)
+
+### المسألة (issue)
+Depicting prophets, Companions, and Mothers of the Believers in TV works.
+
+### النص (excerpt)
+«تمثيل الأنبياء حرام شرعًا» (by 'isma and rank; Satan-hadith cited).
+«وقد سبقه القرار رقم [20] … بتاريخ 7 من محرم 1392هـ الموافق 22 من فبراير 1972م،
+وفيه: عدم جواز تمثيل الشخصيات الإسلامية ذات المكانة والإجلال والقدوة.»
+«قراره رقم [100] … بتاريخ 16 من ربيع الأول 1420هـ الموافق 30 من يونيه 1999م،
+أنه لا يجوز أن يشتمل عمل تمثيلي … على شخصيةٍ من: الأنبياء، والرسل، والعشرة
+المبشرين بالجنة، وآل البيت الكرام.»
+
+### العلة (illah)
+Per the source: 'isma + rank; prophetic likeness protected even from Satan;
+«درء المفاسد مُقَدَّم على جلب المصالح».
+
+### الخلاف (disagreement — recorded, not resolved)
+The fatwa's own companion limb (conditional permissibility with five controls;
+Ten/Mothers/daughters/Household excepted outright) bounds the Companion dispute zone — REVIEW-scoped.
+
+### safe_zone hint
+Second source for visual.prophet_depiction: Egyptian-institution documentation of both academy decisions.

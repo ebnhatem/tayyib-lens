@@ -16,4 +16,6 @@
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
 | F-8835 | fatwa | Dar al-Ifta 8835 (URL details/22369), AI depiction of the Divine Self | https://www.dar-alifta.org/ar/fatwa/details/22369 | visual prohibitions | verified |
 | A-OBSERVER | article | Al-Azhar Observer, prophets in artistic works | https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/ | visual prohibitions | verified |
+| F-3392 | fatwa | Dar al-Ifta 3392 (URL details/13236), prophets/companions depiction | https://www.dar-alifta.org/ar/fatwa/details/13236 | visual prohibitions | verified |
+| Q-42-11 | quran | Quran 42:11 + Kathir gloss (tanzih root) | https://quran.com/42:11 | visual prohibitions | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->
