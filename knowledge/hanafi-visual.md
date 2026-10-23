@@ -46,8 +46,11 @@ of degraded intended use — and how that differs from using/wearing.
 «وظاهر كلام النووى فى شرح مسلم: الإجماع على تحريم تصوير حيوان، قال: وسواء صنعه
 لما يمتهن أو لغيره، فصنعته حرام بكل حال، لأن فيه مضاهاة لخلق الله تعالى، وسواء
 كان فى ثوب أو بساط أو درهم وإناء وحائط وغيرها» … «فينبغى أن يكون حراما لا
-مكروها» (al-Bahr, as quoted) … «قلت: لكن مراد الخلاصة اللبس المصرح به فى
-المتون» (the gloss distinguishes wearing/use from making).
+مكروها، إن ثبت الإجماع أو قطعية الدليل بتواتره» (al-Bahr, as quoted — the haram
+grading is expressly conditional) … «قلت: لكن مراد الخلاصة اللبس المصرح به فى
+المتون» (the gloss distinguishes wearing/use from making; text-layer rendering
+«ملكاروها إانلثإبتجماع أو قطعية الدليل بتواتره» normalized against published
+citations of the same passage).
 
 ### العلة (illah)
 Per the transmitted Nawawi claim: manufacture is haram in every case because it
