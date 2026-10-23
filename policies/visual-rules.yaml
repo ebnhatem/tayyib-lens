@@ -23,3 +23,97 @@
   illah: "debasement without veneration (per Bada'i wording); idolaters do not worship the tiny (per Bada'i wording)"
   disagreement: "cushion-refusal (Bukhari 5957) vs cushion-reuse tension recorded REVIEW; Nawawi manufacture-vs-use dissent quoted verbatim from local Radd file (1/647): making animate images is haram in every case even for degraded use (<<وسواء صنعه لما يمتهن أو لغيره، فصنعته حرام بكل حال>>) — directly contests generation routing: maintainer conservative decision 2026-10-23 holds all profiles at REVIEW (shubuhat constitution — manufacture-haram claim vs generation routing is unresolved doubt; no MODIFY without maintainer-confirmed resolution); [EXTRAPOLATION] all cited sources address reuse/possession of existing images, not generation of new degraded-form figures; institutional-ai-safety stays REVIEW pending profile-line confirmation"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.incomplete_image
+  category: visual
+  trigger: "request for imagery of animate beings missing life-essential parts (head cut, face effaced, chest perforated)"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - life_essential_part_removed
+    - mere_limb_or_feature_removal_insufficient
+    - severed_head_alone_routes_to_review
+  evidence:
+    - source_type: hadith
+      source_name: "Sunan an-Nasa'i 5365 (cut off heads or trodden rug)"
+      locator: "https://sunnah.com/nasai:5365"
+      note: "Sahih (Darussalam); the two remediation exits"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (cut-head exits tamathil status)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
+      note: "category exit into naqsh; same edition precedent as PR #2/#4"
+    - source_type: fatwa
+      source_name: "Islamweb 372403 (incomplete image: headless body permitted)"
+      locator: "https://www.islamweb.net/ar/fatwa/372403"
+      note: "ghayr tammat al-khilqa; removal must be life-essential"
+    - source_type: fatwa
+      source_name: "Islamweb 173023 (severed head: khilaf and precaution)"
+      locator: "https://www.islamweb.net/ar/fatwa/173023"
+      note: "precaution: break the head until its form is gone"
+  illah: "the image is no longer complete in creation once a part without which life cannot remain is removed (per fatwa wording); by cutting it exits timthal status (per Bada'i wording)"
+  disagreement: "generation routing flattened to REVIEW for consistency with visual.imtihan_degradation (same possession-to-generation gap under the same Nawawi manufacture contest; shubuhat constitution); severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW; 372403 thread-cut nuance: severing the head by thread with the head left intact does NOT remove karaha (bird-collar reason) — bounds the safe alternative; [EXTRAPOLATION] all cited sources address possession/remediation of existing images, not generation of new headless figures — applying naqisa to generation is labeled extrapolation here"
+  safe_alternative: "prompts/visual-safe-rewrite.md#faceless-silhouette"
+- rule_id: visual.full_body_animate
+  category: visual
+  trigger: "request for imagery depicting complete living beings (humans, animals) with intact form"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - intact_animate_form
+    - no_worship_or_veneration_context_asserted
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5954 (curtain torn; severest punishment; cushions)"
+      locator: "https://sunnah.com/bukhari:5954"
+      note: "mudaha illah; displayed images removed, degraded reuse only"
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5957 (pictured cushion refused; make-alive challenge)"
+      locator: "https://sunnah.com/bukhari:5957"
+      note: "angels bar; no degraded-use exception recorded in this narration"
+    - source_type: hadith
+      source_name: "Sahih Muslim 2106a (angels bar: dog or picture)"
+      locator: "https://sunnah.com/muslim:2106a"
+      note: "unqualified keeping-bar; remediation scope from companion narrations"
+    - source_type: fiqh
+      source_name: "Radd al-Muhtar 1/647 (Nawawi manufacture-ijma claim)"
+      locator: "Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.)"
+      note: "making animate images haram in every case, even for degraded use; use/wearing distinguished in gloss"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (intact images: placement-graded karaha)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
+      note: "tashabbuh illah; strongest karaha facing qibla"
+  illah: "rivalry with creation (mudaha) and the ensoulment challenge; resemblance to idol-worshippers where displayed (per sources' wording)"
+  disagreement: "cushion-refusal (5957) vs cushion-reuse (5954, Muslim 2107i) tension recorded REVIEW; Islamweb AI-image permissibility (475069/519001) contests extension to device-dependent images — REVIEW; hanafi-conservative REJECT rests on the Radd-transmitted Nawawi manufacture-ijma claim (review item #4.1 resolved by in-corpus extraction)"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.halal_base
+  category: visual
+  trigger: "request for imagery of nature, plants, landscapes, architecture, geometry, calligraphy, inanimate objects, or other soulless subjects"
+  verdict: ALLOW
+  profiles: {hanafi-conservative: ALLOW, egypt-dar-alifta: ALLOW, institutional-ai-safety: ALLOW}
+  conditions:
+    - subject_devoid_of_soul
+    - no_awra_or_privacy_intrusion
+    - fruit_bearing_trees_route_to_review
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 2225 (Ibn Abbas: trees and whatever has no soul)"
+      locator: "https://sunnah.com/bukhari:2225"
+      note: "chain-pair with Muslim 2110a; lifeless-subject direction on insistence"
+    - source_type: hadith
+      source_name: "Sahih Muslim 2110a (Ibn Abbas: trees and lifeless things)"
+      locator: "https://sunnah.com/muslim:2110a"
+      note: "same Sa'id b. Abi al-Hasan spine; unavoidability condition"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (lifeless images incur no karaha)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 542 (edition-pending: other editions cite 1/116)"
+      note: "first classical-citation precedent in this repo; edition locator, no URL"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 4539 (URL details/14722; photography and drawing as fine arts)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/14722"
+      note: "permissible with three content conditions"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8035 (URL details/19676; photography as shadow-confinement)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
+      note: "capture-vs-taswir theory; illah-rotation method"
+  illah: "absence of soul and of worship-context; no tashabbuh with idol-worshippers obtains for lifeless subjects (per Bada'i wording)"
+  disagreement: "Qurtubi 34:13 abrogation claim recorded REVIEW-scoped in knowledge/quran-evidence.md; Mujahid fruit-bearing-trees-makruh position (per Nawawi via Islamweb 416920; Qadi: sole holder) attaches to the \"plants\" limb of the trigger — narrow, REVIEW-scoped; Hanbali wajh on plant depiction (madhhab otherwise) likewise recorded; fruit-bearing-tree-centered requests route to REVIEW per the Mujahid position (shubuhat constitution: short of clear permissibility, drop a grade); Standing Committee animate-photography prohibition is out of this rule's inanimate scope; literalist all-images position noted REVIEW"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
