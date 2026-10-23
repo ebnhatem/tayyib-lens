@@ -1,7 +1,7 @@
 # Visual-domain rules. schema: references/evidence-schema.md
 - rule_id: visual.digital_photography
   category: visual
-  trigger: "request for photographic or photorealistic capture of real scenes, people, or events"
+  trigger: "request for photographic capture of real scenes, people, or events"
   verdict: REVIEW
   profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
   conditions:
@@ -26,5 +26,5 @@
       locator: "https://quran.com/21:52"
       note: "second layer: worship-qualifier scoping supports the capture-vs-taswir distinction method"
   illah: "photography is confinement of shadow, not three-dimensional figuration; where the worship/rivalry illah is absent the prohibition lifts (per source wording)"
-  disagreement: "Standing Committee animate-photography prohibition and MuftiOnline 89857 contest animate capture wholesale — REVIEW; [EXTRAPOLATION] 19676/16725 address photographic capture of existing scenes — applying them to AI-generated photorealistic imagery is labeled extrapolation here; Islamweb 519001 (AI-image permissibility, contested, different institution) is the closer anchor, not adopted"
+  disagreement: "AI-photorealistic generation is out of this trigger's scope (routes to REVIEW under visual.ai_generated_images, all-REVIEW); the capture verdict below covers photographic capture only. Standing Committee animate-photography prohibition and MuftiOnline 89857 contest animate capture wholesale — REVIEW; [EXTRAPOLATION] 19676/16725 address photographic capture of existing scenes — applying them to AI-generated photorealistic imagery is labeled extrapolation here; Islamweb 519001 (AI-image permissibility, contested, different institution) is the closer anchor, not adopted"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
