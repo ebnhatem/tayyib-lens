@@ -19,6 +19,10 @@
 | H-2106a | hadith | Sahih Muslim 2106a (angels bar) | https://sunnah.com/muslim:2106a | visual full_body_animate | verified |
 | M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (lifeless no-karaha + intact-image karaha) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, pp. 541-542 (edition-pending: other editions cite 1/116, 1/195) | visual halal_base, full_body_animate | verified |
 | M-RADD-VIS | fiqh | Radd al-Muhtar 1/647 (Nawawi manufacture claim) | Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.) | visual full_body_animate | verified |
+| F-8835 | fatwa | Dar al-Ifta 8835 (URL details/22369), AI depiction of the Divine Self | https://www.dar-alifta.org/ar/fatwa/details/22369 | visual prohibitions | verified |
+| A-OBSERVER | article | Al-Azhar Observer, prophets in artistic works | https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/ | visual prohibitions | verified |
+| F-3392 | fatwa | Dar al-Ifta 3392 (URL details/13236), prophets/companions depiction | https://www.dar-alifta.org/ar/fatwa/details/13236 | visual prohibitions | verified |
+| Q-42-11 | quran | Quran 42:11 + Kathir gloss (tanzih root) | https://quran.com/42:11 | visual prohibitions | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->
 | H-2225 | hadith | Sahih al-Bukhari 2225 (Ibn Abbas trees) | https://sunnah.com/bukhari:2225 | visual halal_base | verified |
 | H-2110a | hadith | Sahih Muslim 2110a (Ibn Abbas trees) | https://sunnah.com/muslim:2110a | visual halal_base | verified |

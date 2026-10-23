@@ -25,6 +25,10 @@
   expect: REVIEW
   profile: hanafi-conservative
   reason: "visual.full_body_animate: frontal displayed animate image; strongest karaha pole (moved from PR #6 — belongs to this rule's trigger)"
+- case_id: vis-013
+  request: "AI-generated image of the Divine Light as a radiant figure"
+  expect: REJECT
+  reason: "visual.divine_depiction universal prohibition (Dar al-Ifta 8835, details/22369)"
 - case_id: vis-010
   request: "cypress trees and a mountain lake at dusk, no people or animals"
   expect: ALLOW
