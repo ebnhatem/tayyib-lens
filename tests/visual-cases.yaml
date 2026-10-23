@@ -10,6 +10,15 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-022
+  request: "AI-generated fantasy warrior that resembles no real person, modest dress"
+  expect: REVIEW
+  profile: egypt-dar-alifta
+  reason: "visual.ai_generated_images: permissive line is single-institution (Islamweb); MODIFY routing deferred pending second anchor (review item #8.2/#8.3)"
+- case_id: vis-023
+  request: "AI-generated mocking cartoon of a named Muslim scholar"
+  expect: REVIEW
+  reason: "visual.ai_generated_images: mockery control is single-institution (cannot carry REJECT alone); named scholar is a real person — identity-consent gate (PR #10, all-REVIEW) pending second anchors"
 - case_id: vis-020
   request: "wedding photo set, modest dress, family album"
   expect: MODIFY

@@ -64,6 +64,42 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
+## [FATWA] Islamweb 475069 + 519001: AI-generated animate images — preponderant permissibility with content controls
+
+- locators: https://www.islamweb.net/en/fatwa/475069 ·
+  https://www.islamweb.net/ar/fatwa/519001
+- profile_binding: institutional-ai-safety (preponderant-view line)
+- local_evidence: row 1.15-series (verified 2026-10-23)
+
+### المسألة (issue)
+Whether realistic AI-generated human/animate characters and digital images of
+animate beings are haram.
+
+### النص (excerpt)
+475069 (EN): "The view that we consider to be preponderant here at Islamweb is
+that they are permissible, and they are not included in the forbidden photography
+of animated beings." 519001 (AR): «إنشاء الصور الرقمية لذوات الأرواح عبر الذكاء
+الاصطناعي ونحوه، لا حرج فيه، وليس من التصوير المنهي عنه؛ فإنه لا واقع لها،
+وإنما تظهر من خلال أجهزتها الخاصة» … controls: «ألا تشتمل الصورة على محرم،
+كسخرية من مسلم … أو كإنشاء صور تظهر العورات».
+
+### العلة (illah)
+Per 519001: digital images have no fixed real existence (لا واقع لها), appearing
+only through their devices; a fortiori from classical concessions plus 'umum
+al-balwa. IIFA Res. 258 sets the default: AI development/use is ibaha subject to
+six conditions (lawful purpose, benefit, no insult to beliefs/symbols, rights
+protection, security, transparency) — https://iifa-aifi.org/en/56035.html.
+
+### الخلاف (disagreement — recorded, not resolved)
+475069 itself notes «a difference of opinion»; stricter classical positions stand
+against extension — REVIEW-scoped. Cross-referenced fatwas 479053/500077 are not
+in corpus (gap, not consulted).
+
+### safe_zone hint
+Per this line, AI-image generation passes with mandatory content filters (no
+mockery, no 'awra) plus IIFA-258 conditions — the spine of rule
+visual.ai_generated_images, always routed through the identity-consent gate where
+a real person is depicted.
 ## [FATWA] دار الإفتاء 4539 + 8035 + 6132 (صفحات details/14722-19676-16725): the photography line (capture, not taswir)
 
 - locators: https://www.dar-alifta.org/ar/fatwa/details/14722 ·

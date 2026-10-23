@@ -14,6 +14,8 @@
 | A-498 | article | Dar al-Ifta article 498, Quran with instruments | https://www.dar-alifta.org/en/article/details/498 | audio rules | verified |
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
+| I-475069 | fatwa | Islamweb 475069, AI-generated humans | https://www.islamweb.net/en/fatwa/475069 | visual ai_generated_images | verified |
+| I-519001 | fatwa | Islamweb 519001, AI digital animate images | https://www.islamweb.net/ar/fatwa/519001 | visual ai_generated_images | verified |
 | F-4539 | fatwa | Dar al-Ifta 4539 (URL details/14722), photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual halal_base, digital_photography | verified |
 | F-8035 | fatwa | Dar al-Ifta 8035 (URL details/19676), capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual halal_base, digital_photography | verified |
 | F-6132 | fatwa | Dar al-Ifta 6132 (URL details/16725), shadowless image | https://www.dar-alifta.org/ar/fatwa/details/16725 | visual digital_photography | verified |
