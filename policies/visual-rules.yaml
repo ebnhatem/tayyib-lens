@@ -15,3 +15,214 @@
   illah: "minority of the player, not the form of the dolls (per page note)"
   disagreement: "single-narration evidence (one hadith + page note) — all profiles held at REVIEW pending a second anchor (Islamweb 3356/120568 jumhur play-dolls exception, or Fath al-Bari 10/527 via islamqa 309692 quotation, bucket-B); generated/screen doll imagery is out of trigger scope (screen doll-games prohibited per islamqa 129324 lineage — collection pending); contemporary dissents pending collection (realistic-doll split 3643; Ibn Jebreen; Ibn Uthaymin hesitation); any extension beyond physical young-children play routes to REVIEW"
   safe_alternative: "prompts/visual-safe-rewrite.md#abstract-ornament"
+- rule_id: visual.real_person_likeness
+  category: visual
+  trigger: "request for AI-generated or deepfake imagery/voice of a real living person"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - no_fabrication_of_speech_or_act
+    - no_distortive_recontextualisation
+    - documentary_path_only_with_consent_and_labelling
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8889 (URL details/22605; deepfake of a living person)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/22605"
+      note: "two prohibited forms; consent and entertainment no excuse; documentary exception"
+  illah: "lying, forgery, defamation, assault on honor and property; prohibitions are not lifted by individual consent (per source wording)"
+  disagreement: "single-layer evidence (one fatwa) — REJECT routing deferred to owner with all profiles held at REVIEW pending a second independent anchor (ghish/lying hadith layer + second institution position, bucket-B); documentary-exception scope is the source's own narrow definition"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.deceased_likeness
+  category: visual
+  trigger: "request for AI-generated video or animation of a deceased person"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - faithful_to_deceased_manner
+    - remembrance_or_solace_purpose
+    - no_harm_present_or_future
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8885 (URL details/24168 EN; animating the deceased)"
+      locator: "https://www.dar-alifta.org/en/fatwa/details/24168"
+      note: "three-tier ruling: fabrication prohibited, grief-loop prohibited, remembrance permissible"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8885 (URL details/22586 AR; same three-tier ruling)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/22586"
+      note: "AR twin confirms the three tiers; displays 8885 dated 18 Jan 2026 vs 24168 AR view 8885 dated 1 Jan 2025 — variance recorded, not harmonized; same institution, not an independent anchor"
+  illah: "fabrication is lying about the deceased and falsifying reality; grief-indulgence is objection to the decree plus psychological harm (per source wording)"
+  disagreement: "two locators, one institution (24168 EN + 22586 AR) — maintainer conservative decision 2026-10-23: all profiles held at REVIEW (shubuhat constitution — single-institution corroboration is not the clarity needed for a permissive MODIFY; independent anchor 861 is stricter and dissents uncollected); independent anchors (MuftiWP Irsyad 861, stricter) and dissents (al-Atrash, DUMK) deferred by maintainer decision; voice-cloning of the deceased is deliberately scoped out of the trigger pending its own rule/anchor (scoping choice; the AR twin discusses voice generation, so the exclusion is methodological, not evidentiary); requester consent does not cure fabrication"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.ai_generated_images
+  category: visual
+  trigger: "request for AI-generated imagery of non-specific (non-real) animate subjects"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - no_prohibited_content
+    - lawful_purpose_and_benefit
+    - transparency_of_ai_origin
+    - no_real_person_depicted
+  evidence:
+    - source_type: fatwa
+      source_name: "Islamweb 475069 (AI-generated humans: preponderant permissibility)"
+      locator: "https://www.islamweb.net/en/fatwa/475069"
+      note: "preponderant (rajih) view; notes difference of opinion"
+    - source_type: fatwa
+      source_name: "Islamweb 519001 (AI digital animate images: no harm, with controls)"
+      locator: "https://www.islamweb.net/ar/fatwa/519001"
+      note: "no fixed reality illah; mandatory content controls"
+    - source_type: resolution
+      source_name: "IIFA Res. 258 (AI default ibaha with six conditions)"
+      locator: "https://iifa-aifi.org/en/56035.html"
+      note: "lawful purpose, benefit, rights, transparency"
+  illah: "device-dependent images have no fixed reality (per 519001 wording); AI use defaults to permissibility under ethical conditions (per IIFA wording)"
+  disagreement: "difference of opinion on electronic/digital images noted in-source; stricter classical positions recorded REVIEW; permissive line is single-institution (Islamweb) — Islamweb sits outside the egypt-dar-alifta profile definition, so all profiles held at REVIEW pending an Egyptian-institution anchor and a second permissive anchor (bucket-B); real-person depictions exit to the identity-consent gate (visual.deceased_likeness / visual.real_person_likeness)"
+  safe_alternative: "prompts/visual-safe-rewrite.md#abstract-ornament"
+- rule_id: visual.digital_photography
+  category: visual
+  trigger: "request for photographic capture of real scenes, people, or events"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
+  conditions:
+    - no_awra_exposure
+    - no_privacy_intrusion
+    - lawful_or_beneficial_motive
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8035 (URL details/19676; photography as shadow-confinement)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
+      note: "capture-vs-taswir theory; illah-rotation method"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 4539 (URL details/14722; photography and drawing as fine arts)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/14722"
+      note: "permissible with three content conditions"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 6132 (URL details/16725; shadowless image; noble motive)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/16725"
+      note: "early scoped formulation; ID photos, weddings"
+    - source_type: tafsir
+      source_name: "Kathir/Tabari on Quran 21:52 (condemnation tied to worship)"
+      locator: "https://quran.com/21:52"
+      note: "second layer: worship-qualifier scoping supports the capture-vs-taswir distinction method"
+  illah: "photography is confinement of shadow, not three-dimensional figuration; where the worship/rivalry illah is absent the prohibition lifts (per source wording)"
+  disagreement: "AI-photorealistic generation is out of this trigger's scope (routes to REVIEW under visual.ai_generated_images, all-REVIEW); the capture verdict below covers photographic capture only. Standing Committee animate-photography prohibition and MuftiOnline 89857 contest animate capture wholesale — REVIEW; [EXTRAPOLATION] 19676/16725 address photographic capture of existing scenes — applying them to AI-generated photorealistic imagery is labeled extrapolation here; Islamweb 519001 (AI-image permissibility, contested, different institution) is the closer anchor, not adopted"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.imtihan_degradation
+  category: visual
+  trigger: "request for animate imagery presented in degraded/trodden form (floor cushions, rugs, underfoot placement) or inconspicuously small scale"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - degraded_or_trodden_presentation
+    - no_frontal_or_sujud_spot_placement
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih Muslim 2107i (torn curtain made into cushions)"
+      locator: "https://sunnah.com/muslim:2107i"
+      note: "tearing-cutting-cushion sequence; mechanism unnamed in matn"
+    - source_type: hadith
+      source_name: "Sunan an-Nasa'i 5365 (trodden-rug exit)"
+      locator: "https://sunnah.com/nasai:5365"
+      note: "degradation as one of the two exits"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (trodden/small images: no harm)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 542 (edition-pending: other editions cite 1/195)"
+      note: "imtihan mechanism (debasing without veneration); smallness pole"
+  illah: "debasement without veneration (per Bada'i wording); idolaters do not worship the tiny (per Bada'i wording)"
+  disagreement: "cushion-refusal (Bukhari 5957) vs cushion-reuse tension recorded REVIEW; Nawawi manufacture-vs-use dissent quoted verbatim from local Radd file (1/647): making animate images is haram in every case even for degraded use (<<وسواء صنعه لما يمتهن أو لغيره، فصنعته حرام بكل حال>>) — directly contests generation routing: maintainer conservative decision 2026-10-23 holds all profiles at REVIEW (shubuhat constitution — manufacture-haram claim vs generation routing is unresolved doubt; no MODIFY without maintainer-confirmed resolution); [EXTRAPOLATION] all cited sources address reuse/possession of existing images, not generation of new degraded-form figures; institutional-ai-safety stays REVIEW pending profile-line confirmation"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.incomplete_image
+  category: visual
+  trigger: "request for imagery of animate beings missing life-essential parts (head cut, face effaced, chest perforated)"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - life_essential_part_removed
+    - mere_limb_or_feature_removal_insufficient
+    - severed_head_alone_routes_to_review
+  evidence:
+    - source_type: hadith
+      source_name: "Sunan an-Nasa'i 5365 (cut off heads or trodden rug)"
+      locator: "https://sunnah.com/nasai:5365"
+      note: "Sahih (Darussalam); the two remediation exits"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (cut-head exits tamathil status)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
+      note: "category exit into naqsh; same edition precedent as PR #2/#4"
+    - source_type: fatwa
+      source_name: "Islamweb 372403 (incomplete image: headless body permitted)"
+      locator: "https://www.islamweb.net/ar/fatwa/372403"
+      note: "ghayr tammat al-khilqa; removal must be life-essential"
+    - source_type: fatwa
+      source_name: "Islamweb 173023 (severed head: khilaf and precaution)"
+      locator: "https://www.islamweb.net/ar/fatwa/173023"
+      note: "precaution: break the head until its form is gone"
+  illah: "the image is no longer complete in creation once a part without which life cannot remain is removed (per fatwa wording); by cutting it exits timthal status (per Bada'i wording)"
+  disagreement: "generation routing flattened to REVIEW for consistency with visual.imtihan_degradation (same possession-to-generation gap under the same Nawawi manufacture contest; shubuhat constitution); severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW; 372403 thread-cut nuance: severing the head by thread with the head left intact does NOT remove karaha (bird-collar reason) — bounds the safe alternative; [EXTRAPOLATION] all cited sources address possession/remediation of existing images, not generation of new headless figures — applying naqisa to generation is labeled extrapolation here"
+  safe_alternative: "prompts/visual-safe-rewrite.md#faceless-silhouette"
+- rule_id: visual.full_body_animate
+  category: visual
+  trigger: "request for imagery depicting complete living beings (humans, animals) with intact form"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - intact_animate_form
+    - no_worship_or_veneration_context_asserted
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5954 (curtain torn; severest punishment; cushions)"
+      locator: "https://sunnah.com/bukhari:5954"
+      note: "mudaha illah; displayed images removed, degraded reuse only"
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 5957 (pictured cushion refused; make-alive challenge)"
+      locator: "https://sunnah.com/bukhari:5957"
+      note: "angels bar; no degraded-use exception recorded in this narration"
+    - source_type: hadith
+      source_name: "Sahih Muslim 2106a (angels bar: dog or picture)"
+      locator: "https://sunnah.com/muslim:2106a"
+      note: "unqualified keeping-bar; remediation scope from companion narrations"
+    - source_type: fiqh
+      source_name: "Radd al-Muhtar 1/647 (Nawawi manufacture-ijma claim)"
+      locator: "Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.)"
+      note: "making animate images haram in every case, even for degraded use; use/wearing distinguished in gloss"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (intact images: placement-graded karaha)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
+      note: "tashabbuh illah; strongest karaha facing qibla"
+  illah: "rivalry with creation (mudaha) and the ensoulment challenge; resemblance to idol-worshippers where displayed (per sources' wording)"
+  disagreement: "cushion-refusal (5957) vs cushion-reuse (5954, Muslim 2107i) tension recorded REVIEW; Islamweb AI-image permissibility (475069/519001) contests extension to device-dependent images — REVIEW; hanafi-conservative REJECT rests on the Radd-transmitted Nawawi manufacture-ijma claim (review item #4.1 resolved by in-corpus extraction)"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
+- rule_id: visual.halal_base
+  category: visual
+  trigger: "request for imagery of nature, plants, landscapes, architecture, geometry, calligraphy, inanimate objects, or other soulless subjects"
+  verdict: ALLOW
+  profiles: {hanafi-conservative: ALLOW, egypt-dar-alifta: ALLOW, institutional-ai-safety: ALLOW}
+  conditions:
+    - subject_devoid_of_soul
+    - no_awra_or_privacy_intrusion
+    - fruit_bearing_trees_route_to_review
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 2225 (Ibn Abbas: trees and whatever has no soul)"
+      locator: "https://sunnah.com/bukhari:2225"
+      note: "chain-pair with Muslim 2110a; lifeless-subject direction on insistence"
+    - source_type: hadith
+      source_name: "Sahih Muslim 2110a (Ibn Abbas: trees and lifeless things)"
+      locator: "https://sunnah.com/muslim:2110a"
+      note: "same Sa'id b. Abi al-Hasan spine; unavoidability condition"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (lifeless images incur no karaha)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 542 (edition-pending: other editions cite 1/116)"
+      note: "first classical-citation precedent in this repo; edition locator, no URL"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 4539 (URL details/14722; photography and drawing as fine arts)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/14722"
+      note: "permissible with three content conditions"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8035 (URL details/19676; photography as shadow-confinement)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
+      note: "capture-vs-taswir theory; illah-rotation method"
+  illah: "absence of soul and of worship-context; no tashabbuh with idol-worshippers obtains for lifeless subjects (per Bada'i wording)"
+  disagreement: "Qurtubi 34:13 abrogation claim recorded REVIEW-scoped in knowledge/quran-evidence.md; Mujahid fruit-bearing-trees-makruh position (per Nawawi via Islamweb 416920; Qadi: sole holder) attaches to the \"plants\" limb of the trigger — narrow, REVIEW-scoped; Hanbali wajh on plant depiction (madhhab otherwise) likewise recorded; fruit-bearing-tree-centered requests route to REVIEW per the Mujahid position (shubuhat constitution: short of clear permissibility, drop a grade); Standing Committee animate-photography prohibition is out of this rule's inanimate scope; literalist all-images position noted REVIEW"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
