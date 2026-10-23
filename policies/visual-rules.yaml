@@ -1,4 +1,28 @@
 # Visual-domain rules. schema: references/evidence-schema.md
+- rule_id: visual.imtihan_degradation
+  category: visual
+  trigger: "request for animate imagery presented in degraded/trodden form (floor cushions, rugs, underfoot placement) or inconspicuously small scale"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - degraded_or_trodden_presentation
+    - no_frontal_or_sujud_spot_placement
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih Muslim 2107i (torn curtain made into cushions)"
+      locator: "https://sunnah.com/muslim:2107i"
+      note: "tearing-cutting-cushion sequence; mechanism unnamed in matn"
+    - source_type: hadith
+      source_name: "Sunan an-Nasa'i 5365 (trodden-rug exit)"
+      locator: "https://sunnah.com/nasai:5365"
+      note: "degradation as one of the two exits"
+    - source_type: fiqh
+      source_name: "Bada'i al-Sana'i, juz 1 (trodden/small images: no harm)"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 542 (edition-pending: other editions cite 1/195)"
+      note: "imtihan mechanism (debasing without veneration); smallness pole"
+  illah: "debasement without veneration (per Bada'i wording); idolaters do not worship the tiny (per Bada'i wording)"
+  disagreement: "cushion-refusal (Bukhari 5957) vs cushion-reuse tension recorded REVIEW; Nawawi manufacture-vs-use dissent quoted verbatim from local Radd file (1/647): making animate images is haram in every case even for degraded use (<<وسواء صنعه لما يمتهن أو لغيره، فصنعته حرام بكل حال>>) — directly contests generation routing: maintainer conservative decision 2026-10-23 holds all profiles at REVIEW (shubuhat constitution — manufacture-haram claim vs generation routing is unresolved doubt; no MODIFY without maintainer-confirmed resolution); [EXTRAPOLATION] all cited sources address reuse/possession of existing images, not generation of new degraded-form figures; institutional-ai-safety stays REVIEW pending profile-line confirmation"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 - rule_id: visual.incomplete_image
   category: visual
   trigger: "request for imagery of animate beings missing life-essential parts (head cut, face effaced, chest perforated)"
