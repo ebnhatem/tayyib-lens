@@ -22,7 +22,7 @@ trodden/underfoot images; for smallness, idolaters do not worship the tiny.
 
 ### الخلاف (disagreement — recorded, not resolved)
 The sujud-spot/frontal placement remains makruh even on a trodden spread —
-recorded as the passage's own karaha pole. Directly on-point dissent, grep-verified in the local Radd file (1/647, al-Halabi 1386 ed., merged-PDF text-layer lines ~37467–37469): «وظاهر كلام النووى فى شرح مسلم: الإجماع على تحريم تصوير حيوان، قال: وسواء صنعه لما يمتهن أو لغيره، فصنعته حرام بكل حال، لأن فيه مضاهاة لخلق الله تعالى» — manufacture haram even for degraded use. Radd ring-tamathil smallness passage still unextracted — not asserted here.
+recorded as the passage's own karaha pole. Directly on-point dissent, grep-verified in the local Radd file (1/647, al-Halabi 1386 ed., merged-PDF text-layer lines ~37467–37469): «وظاهر كلام النووى فى شرح مسلم: الإجماع على تحريم تصوير حيوان، قال: وسواء صنعه لما يمتهن أو لغيره، فصنعته حرام بكل حال، لأن فيه مضاهاة لخلق الله تعالى» — manufacture haram even for degraded use. Radd ring-tamathil smallness passage now extracted in bucket-B (local file grep «على خاتم فضة تماثيل لا يكره … لأنه صغير»): corroborates the smallness pole — optional corroboration, the rule does not depend on it.
 
 ### safe_zone hint
 Trodden placement and inconspicuous smallness are the passage's own no-harm poles —
