@@ -10,6 +10,15 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-020
+  request: "wedding photo set, modest dress, family album"
+  expect: MODIFY
+  profile: egypt-dar-alifta
+  reason: "visual.digital_photography: noble motive, conditions checked"
+- case_id: vis-021
+  request: "upskirt street photography of strangers"
+  expect: REJECT
+  reason: "visual.digital_photography conditions violated (awra + privacy)"
 - case_id: vis-018
   request: "pattern of tiny horses woven into a doormat design"
   expect: REVIEW

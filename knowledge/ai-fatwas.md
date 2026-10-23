@@ -64,6 +64,39 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
+## [FATWA] دار الإفتاء 4539 + 8035 + 6132 (صفحات details/14722-19676-16725): the photography line (capture, not taswir)
+
+- locators: https://www.dar-alifta.org/ar/fatwa/details/14722 ·
+  https://www.dar-alifta.org/ar/fatwa/details/19676 ·
+  https://www.dar-alifta.org/ar/fatwa/details/16725
+- profile_binding: egypt-dar-alifta (institutional line)
+- local_evidence: row 0.11-series (verified 2026-10-23)
+- fatwa_number_note: pages display «رقم الفتوى» 4539 (14722), 8035 (19676), 6132 (16725); URL IDs kept as locators
+
+### المسألة (issue)
+Whether photographic imaging takes the ruling of the depiction prohibited in the texts.
+
+### النص (excerpt)
+4539 (details/14722): «التصوير والرسم من الفنون الجميلة … وهما جائزان شرعًا شريطة أن يخلو من
+الآثام والمحرمات.» 8035 (details/19676): «التصوير الفوتوغرافي: انحباس ظل» … «العبرة في الأحكام
+للمعاني لا للألفاظ والمباني» … «الحكم يدور مع علته وجودًا وعدمًا». 6132 (details/16725; 1992,
+scoped): «لا بأس باتخاذ الصورة التي لا ظلّ لها» with a noble/beneficial motive.
+
+### العلة (illah)
+Per 8035 (citing Ibn al-'Arabi and al-Nawawi as quoted; page displays fatwa no. 8035, 13 Sept 2021 — URL ID is not the fatwa number): the prohibited taswir's
+'illah was idolatry-association and rivalry with creation; photography differs in
+reality (shadow-confinement vs. three-dimensional figuration) and, where the 'illah
+is absent, the prohibition lifts. Conditions: «خلا من كشف العورات أو اختراق
+الخصوصيات» (19676); the three 14722 content conditions.
+
+### الخلاف (disagreement — recorded, not resolved)
+The Standing Committee photography-of-living-beings position (dissent row 3.5) and
+MuftiOnline 89857 contest animate photography wholesale — REVIEW-scoped, not
+profile-backing. The literalist all-images position is noted REVIEW.
+
+### safe_zone hint
+Per this line, capture with no 'awra and no privacy intrusion is unobjectionable —
+the spine of rule visual.digital_photography.
 ## [FATWA] Islamweb 372403: the incomplete image — headless body permitted; severed head disputed
 
 - locator: https://www.islamweb.net/ar/fatwa/372403

@@ -14,6 +14,9 @@
 | A-498 | article | Dar al-Ifta article 498, Quran with instruments | https://www.dar-alifta.org/en/article/details/498 | audio rules | verified |
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
+| F-4539 | fatwa | Dar al-Ifta 4539 (URL details/14722), photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual halal_base, digital_photography | verified |
+| F-8035 | fatwa | Dar al-Ifta 8035 (URL details/19676), capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual halal_base, digital_photography | verified |
+| F-6132 | fatwa | Dar al-Ifta 6132 (URL details/16725), shadowless image | https://www.dar-alifta.org/ar/fatwa/details/16725 | visual digital_photography | verified |
 | H-2107i | hadith | Sahih Muslim 2107i (curtain made into cushions) | https://sunnah.com/muslim:2107i | visual imtihan_degradation | verified |
 | H-5365 | hadith | Sunan an-Nasa'i 5365 (cut heads or trodden rug) | https://sunnah.com/nasai:5365 | visual incomplete_image, imtihan_degradation | verified |
 | M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (lifeless + intact karaha + cut-head + trodden/small) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, pp. 541-542 (edition-pending) | visual halal_base, full_body_animate, incomplete_image, imtihan_degradation | verified |
@@ -30,7 +33,5 @@
 <!-- TODO: complete from the PRD tier-1 corpus list -->
 | H-2225 | hadith | Sahih al-Bukhari 2225 (Ibn Abbas trees) | https://sunnah.com/bukhari:2225 | visual halal_base | verified |
 | H-2110a | hadith | Sahih Muslim 2110a (Ibn Abbas trees) | https://sunnah.com/muslim:2110a | visual halal_base | verified |
-| F-4539 | fatwa | Dar al-Ifta 4539 (URL details/14722), photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual rules | verified |
-| F-8035 | fatwa | Dar al-Ifta 8035 (URL details/19676), capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual rules | verified |
 | Q-21-52 | tafsir | Kathir/Tabari on Quran 21:52 (worship qualifier) | https://quran.com/21:52 | visual halal_base | verified |
 | I-416920 | fatwa | Islamweb 416920, plants drawing (Mujahid dissent) | https://www.islamweb.net/ar/fatwa/416920 | visual halal_base disagreement | verified |
