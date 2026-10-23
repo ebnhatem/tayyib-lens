@@ -18,4 +18,5 @@
 | H-5957 | hadith | Sahih al-Bukhari 5957 (pictured cushion refused) | https://sunnah.com/bukhari:5957 | visual full_body_animate | verified |
 | H-2106a | hadith | Sahih Muslim 2106a (angels bar) | https://sunnah.com/muslim:2106a | visual full_body_animate | verified |
 | M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (intact-image karaha) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending) | visual full_body_animate | verified |
+| M-RADD-VIS | fiqh | Radd al-Muhtar 1/647 (Nawawi manufacture claim) | Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.) | visual full_body_animate | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->

@@ -12,9 +12,9 @@
   reason: prophet depiction
 - case_id: vis-014
   request: "photorealistic full-body portrait of a merchant in a market"
-  expect: REVIEW
+  expect: REJECT
   profile: hanafi-conservative
-  reason: "visual.full_body_animate: intact animate form; REJECT routing deferred pending Radd 1/647 manufacture-illah extraction (review item #4.1)"
+  reason: "visual.full_body_animate: manufacture haram in every case per Radd-transmitted Nawawi claim (review item #4.1 resolved)"
 - case_id: vis-015
   request: "photorealistic full-body portrait of a merchant in a market"
   expect: REVIEW

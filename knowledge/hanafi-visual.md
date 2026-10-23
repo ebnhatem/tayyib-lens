@@ -27,4 +27,42 @@ extension to image-generation is REVIEW work, not in this card.
 
 ### safe_zone hint
 Per this passage, intact animate images carry the strongest karaha pole —
-the madhhab anchor of rule visual.full_body_animate (hanafi-conservative REJECT).
+context for rule visual.full_body_animate (the REJECT grading rests on the Radd
+manufacture card below, not on this passage alone).
+
+## [MADHHAB] Radd al-Muhtar 1/647: Nawawi's manufacture-ijma claim transmitted (making vs. using)
+
+- locator: Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.;
+  merged-PDF text-layer lines ~37467–37474; letter-spacing noise in source text
+  layer, wording verified by grep)
+- profile_binding: hanafi-conservative (madhhab layer)
+- local_evidence: row 2.2 Radd al-Muhtar visual chapters (verified 2026-10-23)
+
+### المسألة (issue)
+Whether making (manufacture of) an animate image is haram in itself, regardless
+of degraded intended use — and how that differs from using/wearing.
+
+### النص (excerpt)
+«وظاهر كلام النووى فى شرح مسلم: الإجماع على تحريم تصوير حيوان، قال: وسواء صنعه
+لما يمتهن أو لغيره، فصنعته حرام بكل حال، لأن فيه مضاهاة لخلق الله تعالى، وسواء
+كان فى ثوب أو بساط أو درهم وإناء وحائط وغيرها» … «فينبغى أن يكون حراما لا
+مكروها» (al-Bahr, as quoted) … «قلت: لكن مراد الخلاصة اللبس المصرح به فى
+المتون» (the gloss distinguishes wearing/use from making).
+
+### العلة (illah)
+Per the transmitted Nawawi claim: manufacture is haram in every case because it
+involves rivalry with creation (مضاهاة), whatever the substrate; the gloss then
+distinguishes the wearing/use ruling (khulasa: prayer-garment use) from the
+making ruling.
+
+### الخلاف (disagreement — recorded, not resolved)
+The passage transmits Nawawi's ijma claim as the manufacture rule while
+preserving a use/wearing distinction in the gloss — both recorded as written, no
+harmonization. Whether the ijma claim binds the hanafi-conservative profile's
+REJECT is the profile's wara' application, recorded here as the supporting
+source (review item #4.1 resolved by this extraction).
+
+### safe_zone hint
+Per this passage, the making of an animate image is the haram-graded act even
+for degraded use — the madhhab anchor of visual.full_body_animate's
+hanafi-conservative REJECT.
