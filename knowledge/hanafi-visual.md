@@ -1,5 +1,10 @@
 # Hanafi Visual
 
+## [MADHHAB] Bada'i: cut-head images exit the tamathil category (naqisa)
+
+- locator: Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1,
+  p. 541 (edition-pending: other editions cite 1/116; Kitab al-Salat image
+  cluster; local clip lines 51–53)
 ## [MADHHAB] Bada'i: intact images — karaha graded by placement (tashabbuh)
 
 - locator: Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1,
@@ -12,6 +17,30 @@
 - local_evidence: row 2.1 Bada'i visual clips (verified 2026-10-23)
 
 ### المسألة (issue)
+Praying in a house containing tamathil — whether head-cut images lift the karaha
+stated for intact images.
+
+### النص (excerpt)
+«ولو صلّى في بيت فيه تماثيل: فهذا على وجهين: إما إن كانت التمائيل مقطوعة الرؤوس
+… فإن كانت مقطوعة الرؤوس [فلا بأس] بالصلاة فيه؛ لأنها بالقطع خرجت من أن تكون
+تماثيل والتحقت بالنقوش» **[RECONSTRUCTION MARKER — the bracketed [فلا بأس] is
+supplied from surrounding clip sense; the OCR line reads elliptically. Reconcile
+against a published edition (cf. Bada'i 1/116 renderings) before treating the
+bracketed words as source text.]**
+
+### العلة (illah)
+Per the source: by cutting, the image "exited being tamathil and joined mere
+decoration/patterns" (naqsh) — a category exit, not a concession.
+
+### الخلاف (disagreement — recorded, not resolved)
+No Hanafi-internal disagreement recorded in the extracted clips on the cut-head
+rule itself. The Jibril curtain directive (cut heads OR trodden furnishings, clip
+lines 56–57) corroborates the disjunction. Hindiyya head-cut rule unextracted
+pending clip production — not asserted here.
+
+### safe_zone hint
+Per this passage, decapitation/headlessness is the reported exit from timthal
+status — the madhhab anchor of rule visual.incomplete_image.
 Praying where intact (uncut-head) images are present — scope and grading of karaha.
 
 ### النص (excerpt)

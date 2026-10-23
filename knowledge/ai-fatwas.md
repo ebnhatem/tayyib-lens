@@ -64,6 +64,56 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
 
+## [FATWA] Islamweb 372403: the incomplete image — headless body permitted; severed head disputed
+
+- locator: https://www.islamweb.net/ar/fatwa/372403
+- profile_binding: all visual profiles (naqisa doctrine)
+- local_evidence: row 1.15-series (verified 2026-10-23)
+
+### المسألة (issue)
+Keeping a plastic doll's body separated from its head, and the head alone.
+
+### النص (excerpt)
+«فإنه لا حرج في اقتناء الصورة غير تامة الخلقة -وهي التي قطع منها جزء لا تتم
+الحياة إلا به كالرأس ونحوه-.» … «ولا يكفي أن تكون قد أزيلت … العينان أو …
+الأيدي أو الأرجل، بل لا بد أن يكون العضو الزائل مما لا تبقى الحياة معه، كقطع
+الرأس، أو محو الوجه، أو خرق الصدر أو البطن.»
+
+### العلة (illah)
+Per the fatwa (citing the Kuwaiti Encyclopedia passage and Jibril's instruction):
+the image is no longer "complete in creation" once a life-essential part is removed.
+
+### الخلاف (disagreement — recorded, not resolved)
+Intra-card: the headless body is permitted by 'ammat al-'ulama'; the severed head
+alone is permitted by the jumhur but prohibited on the Shafi'i preponderant view
+(«والحرمة أرجح», Asna al-Matalib). Companion card 173023 adds Ibn Baz's
+face-distinction and a precautionary sale ruling (break the head before selling).
+
+### safe_zone hint
+Headless/face-effaced figures are the classical incomplete-image safe zone;
+severed-head-alone outputs route to REVIEW.
+
+## [FATWA] Islamweb 173023: severed statue head — khilaf and precaution (doll pair, part 2)
+
+- locator: https://www.islamweb.net/ar/fatwa/173023
+- profile_binding: all visual profiles (naqisa caution)
+- local_evidence: row 1.16-series (verified 2026-10-23)
+
+### المسألة (issue)
+Whether a cut-off archaeological-statue head may be kept/sold as-is.
+
+### النص (excerpt)
+«فإذا قطع رأس التمثال فهل يدخل تحت الصورة المنهي عنها … محل خلاف عند أهل العلم»
+… «الأحوط عدم ترك الرأس على حاله، بل يقسم ويجزأ حتى تذهب خلقته قبل بيعه.»
+
+### العلة (illah)
+Disputed: Malikis/Hanbalis/Shafi'is treat headless bodies as outside the
+prohibition but differ over the surviving head; Ibn Baz's distinction — the face
+retains exquisite creation — is cited against analogy with the body.
+
+### safe_zone hint
+The fatwa's own precaution (efface/break the head) is the conservative routing for
+head-intact severed outputs.
 ## [FATWA] دار الإفتاء المصرية — فتوى 8835 (صفحة details/22369): تحريم تصوير الذات الإلهية بالذكاء الاصطناعي مطلقًا
 
 - locator: https://www.dar-alifta.org/ar/fatwa/details/22369 (page displays «رقم الفتوى: 8835», 4 Dec 2025 — verified by page open 2026-10-23; 22369 is the URL ID)
