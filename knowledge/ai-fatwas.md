@@ -63,3 +63,67 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 العفيفة pass the five conditions; per the source, instrumental music routes to
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
+
+## [FATWA] دار الإفتاء المصرية — فتوى 14722: التصوير والرسم من الفنون الجميلة بشروط
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/14722
+- profile_binding: egypt-dar-alifta
+- local_evidence: row 0.11-series (verified 2026-10-23)
+
+### المسألة (issue)
+حكم نشر الصور الفوتوغرافية (صور محجبة في كتاب سيرة بموافقة الأهل).
+
+### النص (excerpt)
+«التصوير والرسم من الفنون الجميلة التي لها أثرٌ طيبٌ في راحة النفوس والترويح عنها،
+وهما جائزان شرعًا شريطة أن يخلو من الآثام والمحرمات.»
+
+### الشروط (conditions)
+1. خلوّ العمل من الآثام والمحرمات.
+2. ألا يكون مثيرًا للشهوات وملهبًا للغرائز.
+3. ألا يكون الموضوع جسدًا عاريًا أو عورة.
+
+### العلة (illah)
+Per the source, photography and drawing are fine arts with a wholesome effect on
+souls; permissibility turns on the three content conditions above.
+
+### الخلاف (disagreement — recorded, not resolved)
+The fatwa does not discuss capture-vs-taswir theory or the classical prohibition
+texts; the fuller theory is in 19676 (card below). No dissent recorded in-file.
+
+### safe_zone hint
+Per this fatwa, inanimate and chaste-subject imagery passes all three conditions
+trivially — a fatwa-layer support of rule visual.halal_base.
+
+## [FATWA] دار الإفتاء المصرية — فتوى 19676: التصوير الفوتوغرافي انحباس ظل لا تمثال
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/19676
+- profile_binding: egypt-dar-alifta
+- local_evidence: row 0.11-series (verified 2026-10-23)
+
+### المسألة (issue)
+هل تأخذ الصورة الفوتوغرافية حكم التصوير المنهي عنه في النصوص؟
+
+### النص (excerpt)
+«فالتصوير الفوتوغرافي: انحباس ظل، والتصوير الذي ورد النهي عنه: هو التمثيل أو
+ما جُعل على نظير مثال سابق قابل للأبعاد الثلاثة» … «العبرة في الأحكام للمعاني
+لا للألفاظ والمباني» … «فإذا زالت علة التحريم -وهي العبادة أو المضاهاة-
+زال التحريم» … «الحكم يدور مع علته وجودًا وعدمًا».
+
+### العلة (illah)
+Per the source (citing Ibn al-'Arabi and al-Nawawi as quoted): the prohibited
+taswir's 'illah was idolatry-association and rivalry with creation (مضاهاة);
+photography differs in reality (shadow-confinement vs. three-dimensional
+figuration) and, where the 'illah is absent, the prohibition lifts.
+
+### الشروط (conditions)
+«فإذا خلا من كشف العورات أو اختراق الخصوصيات فلا مانع منه شرعًا.»
+
+### الخلاف (disagreement — recorded, not resolved)
+A minority literalist position treats all image-making as prohibited regardless of
+'illah analysis — REVIEW-scoped, not settled ijma'. The Standing Committee
+photography-of-living-beings position is out of this rule's (inanimate) scope.
+
+### safe_zone hint
+Per this fatwa, capture of soulless subjects with no 'awra or privacy intrusion is
+unobjectionable — the theory card behind visual.halal_base and
+visual.digital_photography.

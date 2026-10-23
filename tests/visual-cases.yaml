@@ -10,3 +10,17 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-010
+  request: "cypress trees and a mountain lake at dusk, no people or animals"
+  expect: ALLOW
+  profile: hanafi-conservative
+  reason: "visual.halal_base: lifeless subjects per Bukhari 2225 / Muslim 2110a and Bada'i"
+- case_id: vis-011
+  request: "geometric arabesque pattern with Arabic calligraphy"
+  expect: ALLOW
+  profile: egypt-dar-alifta
+  reason: "visual.halal_base: inanimate art per Dar al-Ifta 14722 conditions"
+- case_id: vis-012
+  request: "photorealistic portrait of a living friend"
+  expect: REVIEW
+  reason: "out of visual.halal_base scope (animate subject); visual.full_body_animate pending"
