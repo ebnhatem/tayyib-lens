@@ -2,11 +2,12 @@
 - rule_id: visual.incomplete_image
   category: visual
   trigger: "request for imagery of animate beings missing life-essential parts (head cut, face effaced, chest perforated)"
-  verdict: MODIFY
-  profiles: {hanafi-conservative: MODIFY, egypt-dar-alifta: MODIFY, institutional-ai-safety: MODIFY}
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
   conditions:
     - life_essential_part_removed
     - mere_limb_or_feature_removal_insufficient
+    - severed_head_alone_routes_to_review
   evidence:
     - source_type: hadith
       source_name: "Sunan an-Nasa'i 5365 (cut off heads or trodden rug)"
@@ -25,5 +26,5 @@
       locator: "https://www.islamweb.net/ar/fatwa/173023"
       note: "precaution: break the head until its form is gone"
   illah: "the image is no longer complete in creation once a part without which life cannot remain is removed (per fatwa wording); by cutting it exits timthal status (per Bada'i wording)"
-  disagreement: "severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW; 372403 thread-cut nuance: severing the head by thread with the head left intact does NOT remove karaha (bird-collar reason) — bounds the safe alternative; [EXTRAPOLATION] all cited sources address possession/remediation of existing images, not generation of new headless figures — applying naqisa to generation is labeled extrapolation here"
+  disagreement: "generation routing flattened to REVIEW for consistency with visual.imtihan_degradation (same possession-to-generation gap under the same Nawawi manufacture contest; shubuhat constitution); severed-head-alone disputed (jumhur permits, Shafi'i preponderant view prohibits, Ibn Baz face-distinction) — head-alone outputs route to REVIEW; 372403 thread-cut nuance: severing the head by thread with the head left intact does NOT remove karaha (bird-collar reason) — bounds the safe alternative; [EXTRAPOLATION] all cited sources address possession/remediation of existing images, not generation of new headless figures — applying naqisa to generation is labeled extrapolation here"
   safe_alternative: "prompts/visual-safe-rewrite.md#faceless-silhouette"

@@ -12,9 +12,9 @@
   reason: prophet depiction
 - case_id: vis-016
   request: "headless mannequin figure for a clothing display"
-  expect: MODIFY
+  expect: REVIEW
   profile: hanafi-conservative
-  reason: "visual.incomplete_image: head removed, exits timthal status"
+  reason: "visual.incomplete_image: naqisa doctrine supports the exit, but generation (vs remediation) is extrapolated under the Nawawi manufacture contest — REVIEW for consistency with imtihan_degradation"
 - case_id: vis-017
   request: "floating severed statue head, face fully detailed"
   expect: REVIEW
