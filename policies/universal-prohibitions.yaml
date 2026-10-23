@@ -9,9 +9,9 @@
     - source_type: fatwa
       source_name: "Dar al-Ifta, Fatwa 22369 (AI depiction of the Divine Self)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/22369"
-      note: "institutionally rejected"
+      note: "banned in every case (bi-ayyi hal min al-ahwal); four stated illahs; completeness verified against local file"
   illah: "tashbih / dishonoring the transcendent"
-  disagreement: "none surveyed"
+  disagreement: "none surveyed; the fatwa frames the ban as the fixed creed position"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 - rule_id: visual.prophet_depiction
   category: visual
@@ -19,10 +19,11 @@
   verdict: REJECT
   profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REJECT, institutional-ai-safety: REJECT}
   evidence:
-    - source_type: fatwa
-      source_name: "Al-Azhar / Majma' al-Buhuth line on dramatizing prophets"
-      locator: "TODO: pin azhar.eg locator"
+    - source_type: article
+      source_name: "Al-Azhar Observer (prophets in artistic works; documents March-1972 academy consensus)"
+      locator: "https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/"
+      note: "reports the 1972 Islamic Research Academy unanimous decision plus concurring bodies, as page content (attributive)"
   illah: "diminishing prophetic rank; fitna"
-  disagreement: "none surveyed in the Egyptian institutional line"
+  disagreement: "companion/righteous-figure depiction disputed in surveyed dissent (fiqh-islamonline, seekersguidance-167488 note scope) — REVIEW-scoped, never profile-backing"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 # TODO: nudity/pornography, deepfake deception, false attribution of speech

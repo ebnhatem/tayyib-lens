@@ -14,4 +14,6 @@
 | A-498 | article | Dar al-Ifta article 498, Quran with instruments | https://www.dar-alifta.org/en/article/details/498 | audio rules | verified |
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
+| F-22369 | fatwa | Dar al-Ifta 22369, AI depiction of the Divine Self | https://www.dar-alifta.org/ar/fatwa/details/22369 | visual prohibitions | verified |
+| A-OBSERVER | article | Al-Azhar Observer, prophets in artistic works | https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/ | visual prohibitions | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->

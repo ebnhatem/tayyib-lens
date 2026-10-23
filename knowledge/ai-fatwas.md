@@ -63,3 +63,54 @@ per the card's conditions: الكلام والسرد والأناشيد الخا
 العفيفة pass the five conditions; per the source, instrumental music routes to
 MODIFY under egypt-dar-alifta (conditions checked) and to REJECT under
 hanafi-conservative.
+
+## [FATWA] دار الإفتاء المصرية — فتوى 22369: تحريم تصوير الذات الإلهية بالذكاء الاصطناعي مطلقًا
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/22369
+- profile_binding: all visual profiles (universal prohibition)
+- local_evidence: row 0.11-series (verified 2026-10-23)
+
+### المسألة (issue)
+حكم استخدام الذكاء الاصطناعي لتوليد صور أو نماذج تجسد الذات الإلهية.
+
+### النص (excerpt)
+«استخدامَ تقنياتِ الذكاءِ الاصطناعي في تصميم صورٍ … تُجسِّدُ الذاتَ الإلهيَّةَ
+-يُعدُّ تشبيهًا وتمثيلًا محرَّمًا شرعًا، يحرم الإقدام عليه بأي حال من الأحوال.»
+
+### العلة (illah)
+Per the source, four stated grounds: نفي التشبيه, النهي عن التفكر في الذات,
+التعدي على الغيب, سد الذرائع (especially false beliefs among the young).
+
+### الخلاف (disagreement — recorded, not resolved)
+None recorded in-file; framed as the fixed creed position. Completeness for
+visual.divine_depiction: VERIFIED — stated without qualification or exception.
+
+### safe_zone hint
+Hard prohibition anchor — no consent, education, or artistic-purpose override exists
+in this source.
+
+## [FATWA] مرصد الأزهر — تجسيد الأنبياء والرسل في الأعمال الفنية (توثيق إجماع 1972)
+
+- locator: https://www.azhar.eg/observer/replies/ArtMID/5814/ArticleID/138/
+- profile_binding: all visual profiles (universal prohibition)
+- local_evidence: azhar-observer-prophets (verified 2026-10-23)
+
+### المسألة (issue)
+حكم تجسيد الأنبياء والرسل في الأعمال الفنية تمثيلًا وتصويرًا.
+
+### النص (excerpt)
+«درء المفاسد مقدم على جلب المصالح» … «ناقش مجمع البحوث الإسلامية في مارس 1972م
+هذه المسألة، وقرر بالإجماع تحريم تمثيل أشخاص الأنبياء والرسل عليهم السلام.»
+
+### العلة (illah)
+Per the article: the harm in embodying prophets outweighs the benefit of
+popularizing their stories; prophetic rank (Satan himself cannot assume the
+Prophet's likeness) bars human embodiment.
+
+### الخلاف (disagreement — recorded, not resolved)
+The article reports the 1972 decision as unanimous and lists concurring bodies —
+recorded as page content, not independently verified history. Companion-figure
+depiction is disputed in surveyed dissent — REVIEW-scoped.
+
+### safe_zone hint
+Completion anchor for visual.prophet_depiction — any prophet-embodiment output is out.
