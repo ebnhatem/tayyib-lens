@@ -1,4 +1,33 @@
 # Visual-domain rules. schema: references/evidence-schema.md
+- rule_id: visual.gender_representation
+  category: visual
+  trigger: "request for a character depiction outside the male-or-female binary (non-binary, agender, genderless framing) or depicting gender transition"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - ambiguous_gender_framing_routed_to_male_or_female_rewrite
+    - explicit_transition_depiction
+    - intersex_medical_educational_context_with_necessity_note
+  evidence:
+    - source_type: resolution
+      source_name: "IIFA Res. 251 (13/25) (gender transformation prohibited as alteration of divine creation)"
+      locator: "https://iifa-aifi.org/en/49718.html"
+      note: "prohibition + 4:119 citation + Bukhari/Anas hadith; ban-surgeries and treat-dysphoria recommendations; AR twin https://iifa-aifi.org/ar/44163.html"
+    - source_type: resolution
+      source_name: "MWL Islamic Fiqh Council Res. 5, 11th session (1989), via AMJA 22813 mirror (institutional corroboration)"
+      locator: "https://www.amjaonline.org/fatwa/ar/22813/مرض-اضطراب-الهوية-الجنسية-وعمليات-تحويل-الجنس"
+      note: "complete male/female transformation prohibited as taghyir khalq Allah; khuntha treatment exception (resolving ambiguity toward the dominant sex is cure, not alteration)"
+    - source_type: quran
+      source_name: "Quran 4:119 (taghyir khalq Allah, per Res. 251's citation)"
+      locator: "https://quran.com/4:119"
+      note: "verse anchor; tafsir selections in local evidence, resolution's application recorded not extended"
+    - source_type: quran
+      source_name: "Quran 4:1; 53:45-46; 92:3 (the pair, male and female)"
+      locator: "https://quran.com/4:1"
+      note: "binary-pair depiction anchor (53:45 https://quran.com/53:45; 92:3 https://quran.com/92:3); tafsir selections in local evidence"
+  illah: "alteration of divine creation (taghyir khalq Allah) (per Res. 251 wording); depiction follows the created pair, male and female (per the verses)"
+  disagreement: "interim REVIEW basis (D2): one primary institution (IIFA) + MWL mirror corroboration + Quran anchors — all-REJECT routing deferred to the owner pending a second independent institutional anchor; no khilaf flattened: hanafi-conservative REJECT covers explicit transition depiction only, REVIEW under egypt-dar-alifta pending that institution's published line; ambiguous-gender (non-binary/agender/genderless) requests route to a male-or-female rewrite offer under both profiles, never to ALLOW as framed; per the MWL mirror the khuntha treatment exception is treatment not change — intersex medical-educational diagrams route to REVIEW with a medical-necessity note"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 - rule_id: visual.children_play_dolls
   category: visual
   trigger: "request for physical doll or toy-figure imagery for young children's play"

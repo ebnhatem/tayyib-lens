@@ -41,3 +41,9 @@
 | H-2110a | hadith | Sahih Muslim 2110a (Ibn Abbas trees) | https://sunnah.com/muslim:2110a | visual halal_base | verified |
 | Q-21-52 | tafsir | Kathir/Tabari on Quran 21:52 (worship qualifier) | https://quran.com/21:52 | visual halal_base | verified |
 | I-416920 | fatwa | Islamweb 416920, plants drawing (Mujahid dissent) | https://www.islamweb.net/ar/fatwa/416920 | visual halal_base disagreement | verified |
+| F-251 | resolution | IIFA Res. 251 (13/25), gender transformation (EN) | https://iifa-aifi.org/en/49718.html | visual gender_representation | verified |
+| F-251-AR | resolution | IIFA Res. 251 (13/25), gender transformation (AR) | https://iifa-aifi.org/ar/44163.html | visual gender_representation | verified |
+| A-22813 | fatwa | AMJA 22813, mirror of MWL Fiqh Council Res. 5 (11th session) on sex change | https://www.amjaonline.org/fatwa/ar/22813/مرض-اضطراب-الهوية-الجنسية-وعمليات-تحويل-الجنس | visual gender_representation (corroboration) | verified |
+| Q-4-119 | quran | Quran 4:119 (taghyir khalq Allah) | https://quran.com/4:119 | visual gender_representation | verified |
+| Q-4-1 | quran | Quran 4:1 (single soul and its pair) | https://quran.com/4:1 | visual gender_representation | verified |
+| Q-53-45 | quran | Quran 53:45 + 92:3 (the pair, male and female) | https://quran.com/53:45 | visual gender_representation | verified |
