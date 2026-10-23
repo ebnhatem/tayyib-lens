@@ -15,3 +15,30 @@
   illah: "lahwa distracting from dhikr; mimicking ma'azif"
   disagreement: "Ibn Hazm and others dissented; see knowledge/hadith-evidence.md"
   safe_alternative: "prompts/audio-safe-rewrite.md#ambience"
+- rule_id: audio.music_singing
+  category: audio
+  trigger: "request for music or singing (melodic vocal or instrumental content)"
+  verdict: REVIEW
+  profiles:
+    egypt-dar-alifta: MODIFY
+    hanafi-conservative: REJECT
+    institutional-ai-safety: REVIEW
+  conditions:
+    - no_gender_mixing
+    - no_vulgar_or_obscene_content
+    - no_prohibited_association
+    - not_instigating_desire_or_lust
+    - meanings_chaste_and_honorable
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 16964"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/16964"
+      note: "singing is speech; permissibility turns on five content/context conditions"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 17313 (corroborating, 1994)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/17313"
+      note: "same line; duff hadith via Ibn Hibban"
+  illah: "lahw distracting from dhikr; prohibited content categories (per source's own wording)"
+  disagreement: "IslamWeb 100088 holds singing with instruments prohibited by four-madhhab agreement — see knowledge/ai-fatwas.md disagreement section; grounds for the base REVIEW verdict"
+  safe_alternative: "prompts/audio-safe-rewrite.md#ambience"
+  related_rules: [audio.quran_recitation_ai]

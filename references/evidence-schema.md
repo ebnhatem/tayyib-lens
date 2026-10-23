@@ -8,3 +8,7 @@ Every rule in policies/*.yaml requires:
 Every evidence card in knowledge/*.md must label its layer:
 [TEXT] [TAFSIR] [MADHHAB] [FATWA] [EXTRAPOLATION]
 No verdict may be asserted from a single source, a single layer, or an extrapolation alone.
+Locator form is an invariant: bare-ID canonical locators only
+(e.g. https://www.dar-alifta.org/ar/fatwa/details/16964 — no slugs, no tracking
+parameters), identical to the filename-grammar rule: locators never drift from
+the verified local file.
