@@ -89,9 +89,30 @@ solace/remembrance is the permissible purpose not conflicting with maqasid.
 ### الخلاف (disagreement — recorded, not resolved)
 None recorded in-file; the technology is called "double-edged" with a call for
 responsible regulated use. Requester consent (the son) does not cure the
-fabrication tier. Pending-collection notes (bucket-B, not evidence): AR twin details/22586; MuftiWP Irsyad 861 (stricter — bars animation); al-Atrash prohibition; DUMK strict line. Voice-cloning of the deceased is out of scope (source: video/animation only).
+fabrication tier. AR twin details/22586 now collected (see card below; same three
+tiers confirmed). Still pending (maintainer-deferred): MuftiWP Irsyad 861; al-Atrash
+prohibition; DUMK strict line. Voice-cloning of the deceased is out of scope
+(source: video/animation only).
 
 ### safe_zone hint
 Purpose check first: faithful remembrance/solace framing may pass; fabricated
 speech, false commitments, or grief-loop framing are out — the spine of rule
 visual.deceased_likeness.
+
+## [FATWA] Dar al-Ifta 8885 (URL details/22586; AR): same three-tier deceased-video ruling
+
+- locator: https://www.dar-alifta.org/ar/fatwa/details/22586 (page displays «رقم الفتوى: 8885», 18 Jan 2026 — collected 2026-10-23; cf. details/24168 AR view: same no. 8885, 1 Jan 2025 — variance recorded, not harmonized)
+- profile_binding: all visual profiles (identity-consent gate)
+- local_evidence: 05_FATWAS_dar-alifta-22586_clean.md (+ .meta.md)
+
+### المسألة (issue)
+Same question (animating the deceased's photos/audio, recreating a situation).
+
+### النص (excerpt)
+«فإنِ استُخدم ذلك لإظهار الميّت ناطقًا بما لم يقله … حرُم شرعًا» (fabrication tier)
+… «أمّا إن كان التحريك على نحوٍ معتاد … بغرض التذكار والاستئناس واستحضار الدعاء
+للميت … فيجوز ذلك شرعًا ما لم يترتب عليه ضرر في الحال أو المآل» (remembrance tier).
+
+### safe_zone hint
+Second locator confirming the remembrance/fabrication tiers — same institution,
+not an independent anchor; the egypt MODIFY restore is the maintainer's per-PR call.

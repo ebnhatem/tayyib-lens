@@ -15,4 +15,5 @@
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
 | F-8885 | fatwa | Dar al-Ifta 8885 (URL details/24168), animating the deceased | https://www.dar-alifta.org/en/fatwa/details/24168 | visual deceased_likeness | verified |
+| F-8885-AR | fatwa | Dar al-Ifta 8885 (URL details/22586 AR), same three-tier ruling | https://www.dar-alifta.org/ar/fatwa/details/22586 | visual deceased_likeness | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->
