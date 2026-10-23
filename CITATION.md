@@ -17,6 +17,12 @@
 | H-5954 | hadith | Sahih al-Bukhari 5954 (curtain torn; cushions) | https://sunnah.com/bukhari:5954 | visual full_body_animate | verified |
 | H-5957 | hadith | Sahih al-Bukhari 5957 (pictured cushion refused) | https://sunnah.com/bukhari:5957 | visual full_body_animate | verified |
 | H-2106a | hadith | Sahih Muslim 2106a (angels bar) | https://sunnah.com/muslim:2106a | visual full_body_animate | verified |
-| M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (intact-image karaha) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending) | visual full_body_animate | verified |
+| M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (lifeless no-karaha + intact-image karaha) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, pp. 541-542 (edition-pending: other editions cite 1/116, 1/195) | visual halal_base, full_body_animate | verified |
 | M-RADD-VIS | fiqh | Radd al-Muhtar 1/647 (Nawawi manufacture claim) | Radd al-Muhtar 1/647 (local searchable PDF, al-Halabi 1386 ed.) | visual full_body_animate | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->
+| H-2225 | hadith | Sahih al-Bukhari 2225 (Ibn Abbas trees) | https://sunnah.com/bukhari:2225 | visual halal_base | verified |
+| H-2110a | hadith | Sahih Muslim 2110a (Ibn Abbas trees) | https://sunnah.com/muslim:2110a | visual halal_base | verified |
+| F-4539 | fatwa | Dar al-Ifta 4539 (URL details/14722), photography and drawing | https://www.dar-alifta.org/ar/fatwa/details/14722 | visual rules | verified |
+| F-8035 | fatwa | Dar al-Ifta 8035 (URL details/19676), capture-vs-taswir theory | https://www.dar-alifta.org/ar/fatwa/details/19676 | visual rules | verified |
+| Q-21-52 | tafsir | Kathir/Tabari on Quran 21:52 (worship qualifier) | https://quran.com/21:52 | visual halal_base | verified |
+| I-416920 | fatwa | Islamweb 416920, plants drawing (Mujahid dissent) | https://www.islamweb.net/ar/fatwa/416920 | visual halal_base disagreement | verified |
