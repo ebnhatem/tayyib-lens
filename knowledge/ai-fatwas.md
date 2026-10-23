@@ -115,4 +115,4 @@ Same question (animating the deceased's photos/audio, recreating a situation).
 
 ### safe_zone hint
 Second locator confirming the remembrance/fabrication tiers — same institution,
-not an independent anchor; the egypt MODIFY restore is the maintainer's per-PR call.
+not an independent anchor; maintainer conservative decision 2026-10-23: REVIEW held (shubuhat constitution).
