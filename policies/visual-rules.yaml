@@ -3,7 +3,7 @@
   category: visual
   trigger: "request for imagery depicting complete living beings (humans, animals) with intact form"
   verdict: REVIEW
-  profiles: {hanafi-conservative: REJECT, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
   conditions:
     - intact_animate_form
     - no_worship_or_veneration_context_asserted
@@ -22,8 +22,8 @@
       note: "unqualified keeping-bar; remediation scope from companion narrations"
     - source_type: fiqh
       source_name: "Bada'i al-Sana'i, juz 1 (intact images: placement-graded karaha)"
-      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541"
+      locator: "Bada'i al-Sana'i, Dar al-Kutub al-'Ilmiyya 2nd ed. 1424/2003, juz 1, p. 541 (edition-pending: other editions cite 1/116)"
       note: "tashabbuh illah; strongest karaha facing qibla"
   illah: "rivalry with creation (mudaha) and the ensoulment challenge; resemblance to idol-worshippers where displayed (per sources' wording)"
-  disagreement: "cushion-refusal (5957) vs cushion-reuse (5954, Muslim 2107i) tension recorded REVIEW; Islamweb AI-image permissibility (475069/519001) contests extension to device-dependent images — REVIEW"
+  disagreement: "cushion-refusal (5957) vs cushion-reuse (5954, Muslim 2107i) tension recorded REVIEW; Islamweb AI-image permissibility (475069/519001) contests extension to device-dependent images — REVIEW; hanafi-conservative REJECT routing deferred pending Radd al-Muhtar 1/647 manufacture-illah extraction (Nawawi ijma claim) — bucket-B item"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"

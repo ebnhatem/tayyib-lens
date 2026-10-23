@@ -12,11 +12,16 @@
   reason: prophet depiction
 - case_id: vis-014
   request: "photorealistic full-body portrait of a merchant in a market"
-  expect: REJECT
+  expect: REVIEW
   profile: hanafi-conservative
-  reason: "visual.full_body_animate: intact animate form, strongest karaha pole"
+  reason: "visual.full_body_animate: intact animate form; REJECT routing deferred pending Radd 1/647 manufacture-illah extraction (review item #4.1)"
 - case_id: vis-015
   request: "photorealistic full-body portrait of a merchant in a market"
   expect: REVIEW
   profile: egypt-dar-alifta
   reason: "visual.full_body_animate: extension to digital images contested (Islamweb permissibility line)"
+- case_id: vis-019
+  request: "large venerated mural of a hero on a prayer-hall wall facing worshippers"
+  expect: REVIEW
+  profile: hanafi-conservative
+  reason: "visual.full_body_animate: frontal displayed animate image; strongest karaha pole (moved from PR #6 — belongs to this rule's trigger)"
