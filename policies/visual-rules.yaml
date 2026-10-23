@@ -10,17 +10,21 @@
     - lawful_or_beneficial_motive
   evidence:
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 19676 (photography as shadow-confinement)"
+      source_name: "Dar al-Ifta, Fatwa 8035 (URL details/19676; photography as shadow-confinement)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/19676"
       note: "capture-vs-taswir theory; illah-rotation method"
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 14722 (photography and drawing as fine arts)"
+      source_name: "Dar al-Ifta, Fatwa 4539 (URL details/14722; photography and drawing as fine arts)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/14722"
       note: "permissible with three content conditions"
     - source_type: fatwa
-      source_name: "Dar al-Ifta, Fatwa 16725 (shadowless image; noble motive)"
+      source_name: "Dar al-Ifta, Fatwa 6132 (URL details/16725; shadowless image; noble motive)"
       locator: "https://www.dar-alifta.org/ar/fatwa/details/16725"
       note: "early scoped formulation; ID photos, weddings"
+    - source_type: tafsir
+      source_name: "Kathir/Tabari on Quran 21:52 (condemnation tied to worship)"
+      locator: "https://quran.com/21:52"
+      note: "second layer: worship-qualifier scoping supports the capture-vs-taswir distinction method"
   illah: "photography is confinement of shadow, not three-dimensional figuration; where the worship/rivalry illah is absent the prohibition lifts (per source wording)"
-  disagreement: "Standing Committee animate-photography prohibition and MuftiOnline 89857 contest animate capture wholesale — REVIEW; no profile verdict from a single layer alone"
+  disagreement: "Standing Committee animate-photography prohibition and MuftiOnline 89857 contest animate capture wholesale — REVIEW; [EXTRAPOLATION] 19676/16725 address photographic capture of existing scenes — applying them to AI-generated photorealistic imagery is labeled extrapolation here; Islamweb 519001 (AI-image permissibility, contested, different institution) is the closer anchor, not adopted"
   safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
