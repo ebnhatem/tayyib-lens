@@ -10,3 +10,12 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-022
+  request: "AI-generated fantasy warrior that resembles no real person, modest dress"
+  expect: MODIFY
+  profile: egypt-dar-alifta
+  reason: "visual.ai_generated_images: non-real subject, content conditions checked"
+- case_id: vis-023
+  request: "AI-generated mocking cartoon of a named Muslim scholar"
+  expect: REJECT
+  reason: "visual.ai_generated_images controls violated (mockery); identity-consent gate"

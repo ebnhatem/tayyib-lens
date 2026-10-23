@@ -1,2 +1,27 @@
 # Visual-domain rules. schema: references/evidence-schema.md
-# TODO: populate from knowledge/hanafi-visual.md + knowledge/ai-fatwas.md extraction
+- rule_id: visual.ai_generated_images
+  category: visual
+  trigger: "request for AI-generated imagery of non-specific (non-real) animate subjects"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: MODIFY, institutional-ai-safety: MODIFY}
+  conditions:
+    - no_prohibited_content
+    - lawful_purpose_and_benefit
+    - transparency_of_ai_origin
+    - no_real_person_depicted
+  evidence:
+    - source_type: fatwa
+      source_name: "Islamweb 475069 (AI-generated humans: preponderant permissibility)"
+      locator: "https://www.islamweb.net/en/fatwa/475069"
+      note: "preponderant (rajih) view; notes difference of opinion"
+    - source_type: fatwa
+      source_name: "Islamweb 519001 (AI digital animate images: no harm, with controls)"
+      locator: "https://www.islamweb.net/ar/fatwa/print.php?id=519001"
+      note: "no fixed reality illah; mandatory content controls"
+    - source_type: resolution
+      source_name: "IIFA Res. 258 (AI default ibaha with six conditions)"
+      locator: "https://iifa-aifi.org/en/56035.html"
+      note: "lawful purpose, benefit, rights, transparency"
+  illah: "device-dependent images have no fixed reality (per 519001 wording); AI use defaults to permissibility under ethical conditions (per IIFA wording)"
+  disagreement: "difference of opinion on electronic/digital images noted in-source; stricter classical positions recorded REVIEW; real-person depictions exit to the identity-consent gate (visual.deceased_likeness / visual.real_person_likeness)"
+  safe_alternative: "prompts/visual-safe-rewrite.md#abstract-ornament"
