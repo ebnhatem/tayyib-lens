@@ -14,4 +14,7 @@
 | A-498 | article | Dar al-Ifta article 498, Quran with instruments | https://www.dar-alifta.org/en/article/details/498 | audio rules | verified |
 | I-100088 | fatwa | IslamWeb 100088, singing with instruments (dissent) | https://www.islamweb.net/ar/fatwa/100088 | audio disagreement | verified |
 | F-258 | resolution | IIFA Res. 258 (3/26) | https://iifa-aifi.org/en/56035.html | institutional-ai-safety profile | verified |
+| H-2107i | hadith | Sahih Muslim 2107i (curtain made into cushions) | https://sunnah.com/muslim:2107i | visual imtihan_degradation | verified |
+| H-5365 | hadith | Sunan an-Nasa'i 5365 (trodden-rug exit) | https://sunnah.com/nasai:5365 | visual imtihan_degradation | verified |
+| M-BADAI-VIS | fiqh | Bada'i al-Sana'i, juz 1 (trodden/small images) | Bada'i al-Sana'i, DKO 2nd ed. 1424/2003, juz 1, p. 542 | visual imtihan_degradation | verified |
 <!-- TODO: complete from the PRD tier-1 corpus list -->
