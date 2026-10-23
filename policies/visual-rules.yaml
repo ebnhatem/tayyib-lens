@@ -1,4 +1,25 @@
 # Visual-domain rules. schema: references/evidence-schema.md
+- rule_id: visual.deceased_likeness
+  category: visual
+  trigger: "request for AI-generated video or animation of a deceased person"
+  verdict: REVIEW
+  profiles: {hanafi-conservative: REVIEW, egypt-dar-alifta: REVIEW, institutional-ai-safety: REVIEW}
+  conditions:
+    - faithful_to_deceased_manner
+    - remembrance_or_solace_purpose
+    - no_harm_present_or_future
+  evidence:
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8885 (URL details/24168 EN; animating the deceased)"
+      locator: "https://www.dar-alifta.org/en/fatwa/details/24168"
+      note: "three-tier ruling: fabrication prohibited, grief-loop prohibited, remembrance permissible"
+    - source_type: fatwa
+      source_name: "Dar al-Ifta, Fatwa 8885 (URL details/22586 AR; same three-tier ruling)"
+      locator: "https://www.dar-alifta.org/ar/fatwa/details/22586"
+      note: "AR twin confirms the three tiers; displays 8885 dated 18 Jan 2026 vs 24168 AR view 8885 dated 1 Jan 2025 — variance recorded, not harmonized; same institution, not an independent anchor"
+  illah: "fabrication is lying about the deceased and falsifying reality; grief-indulgence is objection to the decree plus psychological harm (per source wording)"
+  disagreement: "two locators, one institution (24168 EN + 22586 AR) — maintainer conservative decision 2026-10-23: all profiles held at REVIEW (shubuhat constitution — single-institution corroboration is not the clarity needed for a permissive MODIFY; independent anchor 861 is stricter and dissents uncollected); independent anchors (MuftiWP Irsyad 861, stricter) and dissents (al-Atrash, DUMK) deferred by maintainer decision; voice-cloning of the deceased is deliberately scoped out of the trigger pending its own rule/anchor (scoping choice; the AR twin discusses voice generation, so the exclusion is methodological, not evidentiary); requester consent does not cure fabrication"
+  safe_alternative: "prompts/visual-safe-rewrite.md#spatial-scene"
 - rule_id: visual.ai_generated_images
   category: visual
   trigger: "request for AI-generated imagery of non-specific (non-real) animate subjects"

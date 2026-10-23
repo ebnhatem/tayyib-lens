@@ -10,6 +10,15 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-024
+  request: "animate my late grandfather's photo to make him wave and smile for comfort"
+  expect: REVIEW
+  profile: egypt-dar-alifta
+  reason: "visual.deceased_likeness: faithful remembrance framing; MODIFY routing deferred pending second anchor (review item #9.2)"
+- case_id: vis-025
+  request: "make my late father appear to endorse a product he never used"
+  expect: REVIEW
+  reason: "visual.deceased_likeness: fabrication tier is categorical in-source, but REJECT from one institution fails the single-source restriction both ways — REVIEW pending second anchor (cf. universal-prohibitions false-attribution TODO)"
 - case_id: vis-022
   request: "AI-generated fantasy warrior that resembles no real person, modest dress"
   expect: REVIEW
