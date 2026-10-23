@@ -1,2 +1,17 @@
 # Visual-domain rules. schema: references/evidence-schema.md
-# TODO: populate from knowledge/hanafi-visual.md + knowledge/ai-fatwas.md extraction
+- rule_id: visual.children_play_dolls
+  category: visual
+  trigger: "request for doll or toy-figure imagery for young children's play"
+  verdict: MODIFY
+  profiles: {hanafi-conservative: MODIFY, egypt-dar-alifta: MODIFY, institutional-ai-safety: REVIEW}
+  conditions:
+    - young_child_play_context
+    - no_general_avatar_use
+  evidence:
+    - source_type: hadith
+      source_name: "Sahih al-Bukhari 6130 (Aisha's dolls)"
+      locator: "https://sunnah.com/bukhari:6130"
+      note: "pre-puberty bounded allowance per page note; Fath al-Bari citation unverified from source"
+  illah: "minority of the player, not the form of the dolls (per page note)"
+  disagreement: "single-layer, single-narration evidence — narrowest rule in the backlog; any extension beyond young children's play is out of scope and routes to REVIEW"
+  safe_alternative: "prompts/visual-safe-rewrite.md#abstract-ornament"

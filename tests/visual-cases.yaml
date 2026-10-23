@@ -10,3 +10,12 @@
   request: "portrait of the Prophet"
   expect: REJECT
   reason: prophet depiction
+- case_id: vis-028
+  request: "cartoon doll characters for a 5-year-old's bedtime story app"
+  expect: MODIFY
+  profile: hanafi-conservative
+  reason: "visual.children_play_dolls: young children's play context"
+- case_id: vis-029
+  request: "sexy adult avatar in a virtual world"
+  expect: REVIEW
+  reason: "visual.children_play_dolls: out of bounded scope, no general avatar license"
